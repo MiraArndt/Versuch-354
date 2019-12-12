@@ -1,4 +1,90 @@
 \section{Theorie}
 \label{sec:Theorie}
 
+\subsection{Der ideale Schwingkreis}
+
+In der Elektrotechnik setzt sich ein idealer Schwingkreis lediglich aus einem Kondensator mit der
+Kapazität $C$ und einer Spule mit der Induktivität $L$ zusammen. Unter der Vorraussetzung, dass
+diesem einmalig Energie hinzugeführt wurde, pendelt diese periodisch zwischen Kondensator und
+Spule hin und her. Dies äußert sich darin, dass beispielsweise zu Beginn der Kondensator 
+aufgeladen ist und sich zwischen den Kondensatorplatten ein elektrisches Feld bildet. Wandern 
+die Elektronen nun von der einen Kondensatorplatte durch den Draht und damit auch mitunter durch 
+die Spule, so nimmt mit dem elektrischen Feld auch die darin gespeicherte Energie ab. Allerdings
+baut sich in der Spule ein magnetisches Feld auf. Da davon ausgegangen wird, dass ein verlustfreier
+Schwingkreis vorliegt, muss Energieerhaltung gelten, was bedeutet, dass die Abnahme der im elektrischen
+Feld gespeicherten Energie exakt der Zunahme der elektrischen Energie im magnetischen Feld entspricht.
+
+\subsection{Der reale Schwingkreis}
+
+Der Unterschied zwischen idealem und realem Schwingkreis liegt darin, dass bei einem realen 
+Schwingkreis ein ohmscher Widerstand verbaut ist. Somit verliert der Schwingkreis mit jedem 
+Durchgang Energie in Form von joulscher Wärme. In diesem Fall wird von einem gedämpften Schwingkreis
+gesprochen.
+Wie der Abbildung (Referenz) entnommen werden kann, bildet der RCL-Schwingkreis eine Masche. Nach
+dem zweiten Kirchhoffschen Gesetz ist die Summe aller Spannungen in einer geschlossenen Masche 
+gleich null.
+Somit ergibt sich für den RCL-Kreis die Gleichung
+\begin{equation}
+    U_R(t)+U_C(t)+U_L(t) = 0.
+    \label{eq:dgl}
+\end{equation}
+Dabei gelten für die Spannungen die Beziehungen
+\begin{align}
+    U_R(t) = R I(t) \\ 
+    U_C(t) = \frac{Q(t)}{C} \\ 
+    U_L(t) = L \frac{\mathrm{d}I}{\mathrm{d}t},
+\end{align}
+\noindent
+wobei für die Stromstärke 
+\begin{equation}
+    I(t) = \frac{\mathrm{d}Q(t)}{\mathrm{d}t}
+\end{equation}
+\noindent
+gelten soll.
+Mithilfe dieser Zusammenhänge ergibt sich aus \ref{eq:dgl} die lineare Differentialgleichung zweiter Ordnung
+\begin{equation}
+    \ddot{I}(t) + \frac{R}{L}\dot{I}(t) + \frac{1}{RC}I(t) = 0,
+\end{equation}
+\noindent
+welche sich mithilfe des Ansatzes
+\begin{equation}
+    I(t) = U e^(iwt)
+\end{equation}
+\noindent 
+lösen lässt. Durch Einsetzen des Ansatzes ergibt sich schließlich die charakteristische Gleichung
+\begin{equation}
+    -w^2 + i\frac{R}{L}w+\frac{1}{LC} = 0.
+\end{equation}
+\noindent
+Mit den beiden Kreisfrequenzen $w_1$ und $w_2$ 
+\begin{equation}
+    w_{1,2} = i \frac{R}{2L} \pm \sqrt{\frac{1}{LC}-\frac{R^{2}}{4L^{2}}}
+\end{equation}
+\noindent
+kann die allgemeine Lösung der Differentialgleichung 
+\begin{equation}
+    I(t) = U_1 e^{i w_1 t} + U_2 e^{i w_2 t},
+    \label{eq:lsg}
+\end{equation}
+\noindent
+wobei $U_1$ und $U_2$ komplexe Koeffizienten darstellen. Wird nun die Darstellung
+\begin{align}
+    \mu = \frac{R}{4\pi L} \nonumber \\
+\end{align}
+\noindent
+\begin{align}
+    \nu = \frac{1}{2\pi} \sqrt{\frac{1}{LC}-\frac{R^{2}}{4L^{2}}} \nonumber \\
+\end{align}
+\noindent
+verwendet, lässt sich \ref{eq:lsg} zu
+\begin{equation}
+    I(t) = e^{-2\pi \mu t} \left( U_1 e^{i 2 \pi \nu t} + U_2 e^{-i 2 \pi \nu t} \right)
+\end{equation}
+\noindent
+umschreiben.
+
+
+
+
+
 \cite{sample}
