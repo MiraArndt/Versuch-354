@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+PWD /home/mira/Documents/Latex/Versuch-354
+INPUT /home/mira/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt
+=======
 PWD /mnt/c/Users/nicos/Desktop/Praktikum/Versuch-354/Versuch-354
 INPUT /home/nico/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt
+>>>>>>> a556d674ed6ba2259a24896bc3bd65a077b691c2
 INPUT ./main.tex
 OUTPUT build/main.log
 INPUT /home/nico/.local/texlive/2019/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua
@@ -338,13 +343,21 @@ INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
-INPUT build/plot.pdf
-INPUT build/plot.pdf
+INPUT ./build/plot1.pdf
+INPUT ./build/plot1.pdf
+INPUT ./build/plot2.pdf
+INPUT ./build/plot2.pdf
+INPUT ./build/plot3.pdf
+INPUT ./build/plot3.pdf
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT ./content/anhang.tex
 INPUT ./content/anhang.tex
+<<<<<<< HEAD
+INPUT /home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
+=======
 INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
+>>>>>>> a556d674ed6ba2259a24896bc3bd65a077b691c2
 INPUT build/main.aux
 INPUT build/main.run.xml
 OUTPUT build/main.run.xml
