@@ -63,7 +63,7 @@ Differentialgleichung zweiter Ordnung
 \noindent
 welche sich mit Hilfe des Ansatzes
 \begin{equation}
-    I(t) = U e^(iwt)
+    I(t) = U e^{iwt}
 \end{equation}
 \noindent 
 lösen lässt. Durch Einsetzen des Ansatzes ergibt sich schließlich die charakteristische Gleichung
@@ -86,9 +86,6 @@ wobei $U_1$ und $U_2$ komplexe Koeffizienten darstellen, bestimmt werden. Wird n
 Darstellung
 \begin{align}
     \mu = \frac{R}{4\pi L} \nonumber \\
-\end{align}
-\noindent
-\begin{align}
     \nu = \frac{1}{2\pi} \sqrt{\frac{1}{LC}-\frac{R^{2}}{4L^{2}}} \nonumber \\
 \end{align}
 \noindent
@@ -192,7 +189,7 @@ das die Stromstärke hierbei noch schneller als beim Kriechfall gegen null streb
 
 
 Durch den Einbau einer Wechselstromquelle können am RCL-Kreis auch erzwungene Schwingungen 
-betrachtet werden. Der schematische Aufbau für die Schaltung lässt sich der Abbildung (REFerenz) 
+betrachtet werden. Der schematische Aufbau für die Schaltung lässt sich der Abbildung \ref{fig:esk}
 entnehmen. Für den von außen mit der Wechselspannung $U(t) = U_0 e^{i\omega t}$ angetriebenen 
 RCL-Kreis, geht Gleichung \ref{eq:dgl} in 
 \begin{equation}
@@ -202,20 +199,50 @@ RCL-Kreis, geht Gleichung \ref{eq:dgl} in
 \begin{equation}
     LC \frac{\mathrm{d}^{2}U_C}{\mathrm{d}t^{2}} + RC \frac{\mathrm{d}U_C}{\mathrm{d}t} + U_C = U_0 e^{i\omega t}
 \end{equation}
-\noindent bringen. Durch den Ansatz $U_C(\omega,t) = U(\omega) e^{i\omega t}$ ergibt sich 
-für die frequenzabhängigen Spannung 
+\noindent bringen. Durch den Ansatz $U_C(\omega,t) = \tilde{U}(\omega) e^{i\omega t}$ ($\tilde{U}(\omega)$ ist 
+eine komplexe Zahl) ergibt sich 
+für die frequenzabhängigen Amplitude 
 \begin{equation}
-    U_C(\omega) = \frac{U_0(1-LC\omega^{2}-i\omega RC)}{(1-LC \omega^{2})^{2} + \omega^{2}R^{2}C{2} }
+    \tilde{U}_C(\omega) = \frac{U_0(1-LC\omega^{2}-i\omega RC)}{(1-LC \omega^{2})^{2} + \omega^{2}R^{2}C{2} }
 \end{equation}
 beziehungsweise für dessen Betrag
 \begin{equation}
-    |U_C(\omega)| = \frac{U_0}{\sqrt{(1-LC\omega)^{2})^{2}+\omega^{2}R^{2}C^{2}}}.
+    |\tilde{U}_C(\omega)| = U_C(\omega)= \frac{U_0}{\sqrt{(1-LC\omega)^{2})^{2}+\omega^{2}R^{2}C^{2}}}.
 \end{equation}
-Diese wird auch als Resonanzkurve bezeichnet. Eine beispielhafte Darstellung kann der Abbildung 
-(Referenz) entnommen werden. Für $\omega \rightarrow \inf$ gilt $U_C \rightarrow$ 
-und für $\omega \rightarrow 0$ gilt $U_C \rightarrow U_0$. Jedoch gibt es bestimmte Frequenzen
-für die $U_C > U_0$ gilt. 
-
-
+Diese wird auch als Resonanzkurve bezeichnet. Für $\omega \rightarrow \infty$ gilt
+$U_C \rightarrow 0$ und für $\omega \rightarrow 0$ gilt $U_C \rightarrow U_0$. Falls die 
+sogenannte Resonanzfrequenz 
+\begin{equation}
+    \omega_{res} = \sqrt{\frac{1}{LC} - \frac{R^{2}}{2L^{2}}}
+\end{equation}
+\noindent 
+sich der Eigenfrequenz 
+\begin{equation}
+    \omega_0 = \sqrt{\frac{1}{LC}}
+\end{equation}
+nähert, kann die Kondensatorspannung $U_C$ aber auch größter als die anliegende Generatorspannung
+$U_0$ sein. Im Fall der schwachen Dämpfung
+\begin{equation*}
+    \frac{R^{2}}{2L^{2}} \ll \frac{1}{LC}
+\end{equation*}
+\noindent 
+überschreitet die Kondensatorspannung die Generatorspannung, wobei 
+\begin{equation}
+    U_{C,max} = \frac{1}{\omega_0 RC} U_0 
+\end{equation}
+\noindent
+den Zusammenhang darstellt. Falls $R \rightarrow 0$ strebt, geht $U_C \rightarrow \infty$. Dies 
+wird als Resonanzkatastrophe bezeichnet. Die Güte des Schwingkreises ergibt sich durch
+\begin{equation}
+    q = \frac{1}{\omega_0 RC}.
+\end{equation}
+\noindent
+Weiterhin wird die Breite der Resonanzkurve durch die Differenz der beiden Frequenzen 
+\begin{equation}
+    \omega_+ - \omega_- \approx \frac{R}{L}
+\end{equation}
+angegeben, an denen die Kondensatorspannung, unter der Bedingung 
+$\frac{R^{2}}{L{2}} \ll \omega_0^{2}$, auf das $\frac{1}{\sqrt{2}}$-fache
+ihres Maximalwerts abgefallen ist.  
 
 \cite{sample}
