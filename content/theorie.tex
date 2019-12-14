@@ -3,50 +3,65 @@
 
 \subsection{Der ideale Schwingkreis}
 
-In der Elektrotechnik setzt sich ein idealer Schwingkreis lediglich aus einem Kondensator mit der
-Kapazität $C$ und einer Spule mit der Induktivität $L$ zusammen. Unter der Vorraussetzung, dass
-diesem einmalig Energie hinzugeführt wurde, pendelt diese periodisch zwischen Kondensator und
-Spule hin und her. Dies äußert sich darin, dass beispielsweise zu Beginn der Kondensator 
-aufgeladen ist und sich zwischen den Kondensatorplatten ein elektrisches Feld bildet. Wandern 
-die Elektronen nun von der einen Kondensatorplatte durch den Draht und damit auch mitunter durch 
-die Spule, so nimmt mit dem elektrischen Feld auch die darin gespeicherte Energie ab. Allerdings
-baut sich in der Spule ein magnetisches Feld auf. Da davon ausgegangen wird, dass ein verlustfreier
-Schwingkreis vorliegt, muss Energieerhaltung gelten, was bedeutet, dass die Abnahme der im elektrischen
-Feld gespeicherten Energie exakt der Zunahme der elektrischen Energie im magnetischen Feld entspricht.
+Ein idealer Schwingkreis setzt sich aus einem Kondensator mit der Kapazität $C$ und einer 
+Spule mit der Induktivität $L$ zusammen. Unter der Vorraussetzung, dass diesem einmalig Energie
+hinzugeführt wurde, bleibt diese im System erhalten. Hierbei kommt es zwischen dem Kondensator 
+und der Spule zu einem periodischen Austausch der Energie. 
+Ist der Kondensator geladen, bildet sich ein elektrisches Feld aus, in dem die Energie 
+steckt. Nimmt nun das elektrische Feld ab, indem sich die Ladungen durch den Draht 
+und damit auch durch die Spule bewegen, baut sich in dieser ein magnetisches Feld auf. Wenn sich
+nun wiederum das magnetische Feld abbaut, baut sich das elektrische Feld auf. Ab diesem Punkt
+wiederholt sich der Vorgang.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics{content/UngedaempfterSchwingkreis.png}
+  \caption{Schaltskizze eines ungedämpften Schwingkreises}
+  \label{fig:ugsk}
+\end{figure}
+
+
 
 \subsection{Der reale Schwingkreis}
 
 Der Unterschied zwischen idealem und realem Schwingkreis liegt darin, dass bei einem realen 
-Schwingkreis ein ohmscher Widerstand verbaut ist. Somit verliert der Schwingkreis mit jedem 
-Durchgang Energie in Form von joulscher Wärme. In diesem Fall wird von einem gedämpften Schwingkreis
-gesprochen.
-Wie der Abbildung (Referenz) entnommen werden kann, bildet der RCL-Schwingkreis eine Masche. Nach
+Schwingkreis ein ohmscher Widerstand eingebaut ist. Somit verliert der Schwingkreis über jede 
+Periode hinweg Energie in Form von Joulscher Wärme. Diese Schaltung wird als gedämpfter 
+Schwingkreis bezeichnet.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics{content/GedaempfterSchwingkreis.png}
+  \caption{Schaltskizze eines gedämpften Schwingkreises}
+  \label{fig:gsk}
+\end{figure}
+
+Wie der Abbildung  entnommen werden kann, bildet der RCL-Schwingkreis eine Masche. Nach
 dem zweiten Kirchhoffschen Gesetz ist die Summe aller Spannungen in einer geschlossenen Masche 
-gleich null.
-Somit ergibt sich für den RCL-Kreis die Gleichung
+gleich null. Somit ergibt sich für den RCL-Kreis die Gleichung
 \begin{equation}
     U_R(t)+U_C(t)+U_L(t) = 0.
     \label{eq:dgl}
 \end{equation}
 Dabei gelten für die Spannungen die Beziehungen
-\begin{align}
+\begin{align*}
     U_R(t) = R I(t) \\ 
     U_C(t) = \frac{Q(t)}{C} \\ 
     U_L(t) = L \frac{\mathrm{d}I}{\mathrm{d}t},
-\end{align}
+\end{align*}
 \noindent
 wobei für die Stromstärke 
 \begin{equation}
     I(t) = \frac{\mathrm{d}Q(t)}{\mathrm{d}t}
 \end{equation}
 \noindent
-gelten soll.
-Mithilfe dieser Zusammenhänge ergibt sich aus \ref{eq:dgl} die lineare Differentialgleichung zweiter Ordnung
+gelten soll. Mithilfe dieser Zusammenhänge ergibt sich aus \ref{eq:dgl} die lineare 
+Differentialgleichung zweiter Ordnung
 \begin{equation}
     \ddot{I}(t) + \frac{R}{L}\dot{I}(t) + \frac{1}{RC}I(t) = 0,
 \end{equation}
 \noindent
-welche sich mithilfe des Ansatzes
+welche sich mit Hilfe des Ansatzes
 \begin{equation}
     I(t) = U e^(iwt)
 \end{equation}
@@ -67,7 +82,8 @@ kann die allgemeine Lösung der Differentialgleichung
     \label{eq:lsg}
 \end{equation}
 \noindent
-wobei $U_1$ und $U_2$ komplexe Koeffizienten darstellen. Wird nun die Darstellung
+wobei $U_1$ und $U_2$ komplexe Koeffizienten darstellen, bestimmt werden. Wird nun die 
+Darstellung
 \begin{align}
     \mu = \frac{R}{4\pi L} \nonumber \\
 \end{align}
@@ -79,11 +95,126 @@ wobei $U_1$ und $U_2$ komplexe Koeffizienten darstellen. Wird nun die Darstellun
 verwendet, lässt sich \ref{eq:lsg} zu
 \begin{equation}
     I(t) = e^{-2\pi \mu t} \left( U_1 e^{i 2 \pi \nu t} + U_2 e^{-i 2 \pi \nu t} \right)
+    \label{eq:Stromstaerke}
 \end{equation}
 \noindent
-umschreiben.
+umschreiben. Dabei kann zwischen drei Fällen unterschieden werden, die nun vorgestellt 
+werden sollen.
 
 
+
+
+
+
+
+
+\subsubsection{Der Schwingfall}
+Der erste Fall tritt dann ein, wenn $\frac{1}{LC} > \frac{R^{2}}{4L^{2}}$ gilt, was bedeutet,
+dass $\nu_{1,2}$ zu imaginären Größen werden. Damit eine reelle Lösung zustande kommt, muss
+zwischen $U_1$ und $U_2$ notwendigerweise die Beziehung $U_1 = \bar{U_2}$ gelten. Folglich lassen 
+sie sich mithilfe der Euler-Formel in die Form
+\begin{align*}
+    U_1 = \frac{1}{2} A_0 e^{i \eta} \\
+    U_2 = \frac{1}{2} A_0 e^{-i \eta}
+\end{align*}
+\noindent bringen. Somit kann die Gleichung \ref{eq:Stromstaerke} in
+\begin{equation*}
+    I(t) = A_0 e^{-2\pi \mu t} \cos{2\pi \nu t + \eta}
+\end{equation*}
+\noindent umgeformt werden. In diesem Fall liegt also eine gedämpfte harmonische Schwingung vor, 
+dessen Amplitude mit fortlaufender Zeit exponentiell abnimmt. Die Schwingungsdauer kann
+mit Hilfe des Zusammenhangs $T = \frac{1}{\nu}$ ermittelt werden. Für die allgemeine 
+gedämpfte Schwingung ergibt sich 
+\begin{equation}
+    T = \frac{2\pi}{\sqrt{\frac{1}{LC}-\frac{R^{2}}{4L^{2}}}}, 
+\end{equation}
+\noindent wobei zusätzlich die Abnahmegeschwindigkeit der Amplitude durch den Wert 
+\begin{equation}
+    T_{ex} = \frac{1}{2\pi\mu} = \frac{2L}{R}
+\end{equation}
+\noindent beschrieben werden kann, welcher angibt, wann die Amplitude sich um den Faktor $e$
+verkleinert hat.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics{content/VerlaufGedaempfteSchwingung.png}
+  \caption{Zeitlicher Verlauf einer gedämpften Schwingung}
+  \label{fig:gsk}
+\end{figure}
+
+
+\subsubsection{Der Kriechfall}
+
+Der zweite Fall tritt ein, falls $\frac{1}{LC} \l \frac{R^{2}}{4L^{2}}$ gilt, was dazu führt, 
+dass \nu selbst eine imaginäre Zahl darstellt. Damit enthält Gleichung \ref{eq:Stromstaerke}
+lediglich reelle Exponentialfunktionen, was bedeutet, dass keine Schwingung ausgeführt wird, 
+sondern die Amplitude - abhängig von den Werten $A_1$ und $A_2$ - entweder direkt und 
+monoton gegen null geht oder zuerst ein Maximum erreicht (die sogenannte Überschwingung) 
+und dann gegen null strebt. Diese Verläufe sind in Abbildung \ref{fig:fvs} dargestellt.
+
+
+\subsubsection{Der aperiodische Grenzfall}
+
+Der dritte und letzte Fall tritt ein, wenn $\frac{1}{LC} = \frac{R_{ap}}{4L^{2}}$ gilt, was dazu
+führt, dass $\nu$ selbst null ergibt. Aus der Bedingung und Gleichung \ref{eq:Stromstaerke} ergibt
+sich für den zeitlichen Verlauf der Stromstärke 
+\begin{equation*}
+    I(t) = A e^{-\frac{R}{2L}t}
+\end{equation*}
+\noindent wobei angemerkt werden soll, dass hierbei keine Überschwingung auftreten kann und 
+das die Stromstärke hierbei noch schneller als beim Kriechfall gegen null strebt (siehe Abbildung \ref{fig:fvs}). 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics{content/faellevonschwingungen.png}
+  \caption{Darstellung des Kriechfalls und des aperiodischen Grenzfalls (gestrichelte Kurve)}
+  \label{fig:fvs}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\subsection{Erzwungene Schwingungen}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics{content/ErzwungenerSchwingkreis.png}
+  \caption{Schaltskizze eines erzwungenen RLC-Schwingkreises}
+  \label{fig:esk}
+\end{figure}
+
+
+
+Durch den Einbau einer Wechselstromquelle können am RCL-Kreis auch erzwungene Schwingungen 
+betrachtet werden. Der schematische Aufbau für die Schaltung lässt sich der Abbildung (REFerenz) 
+entnehmen. Für den von außen mit der Wechselspannung $U(t) = U_0 e^{i\omega t}$ angetriebenen 
+RCL-Kreis, geht Gleichung \ref{eq:dgl} in 
+\begin{equation}
+    L \frac{\mathrm{d}I}{\mathrm{d}t} + RI + \frac{Q}{C} = U_0 e^{}
+\end{equation}
+\noindent über. Weiterhin lässt sich diese auf die Form
+\begin{equation}
+    LC \frac{\mathrm{d}^{2}U_C}{\mathrm{d}t^{2}} + RC \frac{\mathrm{d}U_C}{\mathrm{d}t} + U_C = U_0 e^{i\omega t}
+\end{equation}
+\noindent bringen. Durch den Ansatz $U_C(\omega,t) = U(\omega) e^{i\omega t}$ ergibt sich 
+für die frequenzabhängigen Spannung 
+\begin{equation}
+    U_C(\omega) = \frac{U_0(1-LC\omega^{2}-i\omega RC)}{(1-LC \omega^{2})^{2} + \omega^{2}R^{2}C{2} }
+\end{equation}
+beziehungsweise für dessen Betrag
+\begin{equation}
+    |U_C(\omega)| = \frac{U_0}{\sqrt{(1-LC\omega)^{2})^{2}+\omega^{2}R^{2}C^{2}}}.
+\end{equation}
+Diese wird auch als Resonanzkurve bezeichnet. Eine beispielhafte Darstellung kann der Abbildung 
+(Referenz) entnommen werden. Für $\omega \rightarrow \inf$ gilt $U_C \rightarrow$ 
+und für $\omega \rightarrow 0$ gilt $U_C \rightarrow U_0$. Jedoch gibt es bestimmte Frequenzen
+für die $U_C > U_0$ gilt. 
 
 
 
