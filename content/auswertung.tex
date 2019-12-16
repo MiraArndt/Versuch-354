@@ -1,28 +1,205 @@
 \section{Auswertung}
 \label{sec:Auswertung}
+\subsection{Dämpfung des elektischen Schwingkreises}
+(BILD)
 
-\begin{figure}
+\begin{table}[H]
+  \centering
+  
+  \csvreader[tabular=c|c,
+  head=false, 
+  table head= $t\:/\:\si{\micro\second}$ & $U_C\:/\:\si{\volt}$ \\
+  \midrule,
+  late after line= \\]
+  {daempfung.csv}{1=\eins, 2=\zwei}{$\num{\eins}$ & $\num{\zwei}$}
+  
+  \caption{Kondensatorspannung in Abhängigkeit der Zeit beim gedämpften Schwingkreis}
+  \label{tab:a}
+\end{table}
+
+\noindent Aus Abbildung (REFERENZ) wurden 12 Wertepaare
+abgelesen und in Tabelle \ref{tab:a} aufgelistet. Um
+die Abklingduaer $T_{ex}$ zu bestimmen wurde nun zunächst
+eine lineare Ausgleichsrechnung durchgeführt. Dabei
+wurde eine Lineare Ausgleichsgerade mit Matplotlib
+erstellt, welche in Abbildung \ref{fig:b} zu sehen ist.
+Die Steigung
+
+\begin{equation*}
+  m=-0,01032\cdot 10^{-3}
+\end{equation*}
+
+\noindent dieser Geraden entspricht dem Faktor im Exponenten in Gleichung (REFERENZ AUF GLEICHUNG),
+da $U_C(t)$ proportional zu $I(t)$ ist. Die Abklingdauer
+kann nach Gleichung (REFERENZ AUF GLEICHUNG) durch das 
+Inverse des Betrags der Steigung als 
+
+\begin{equation*}
+  T_{ex}=96,9\cdot10^{-3}
+\end{equation*}
+
+\noindent berechnet werden. Mit der Abklingdauer kann nun eine nichtlineare Ausgleichskurve
+erstellt werden, die der Einhüllenden in Abbildung (REFERENZ)
+entspricht. Die Ausgleichsgerade ist mit den abgelesenen
+Messwerten in Abbilung \ref{fig:a} zu sehen.
+
+\begin{figure}[H]
   \centering
   \includegraphics{build/plot1.pdf}
-  \caption{Amplitudenmaximum der Kondensatorspannung eines RLC-Kreises in Abhängigkeit der Zeit.}
-  \label{fig:plot}
+  \caption{Amplitudenmaximum der Kondensatorspannung eines RLC-Kreises in Abhängigkeit der Zeit}
+  \label{fig:a}
 \end{figure}
-\begin{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics{build/plot1-1.pdf}
+  \caption{Linearisierte Darstellung der Amplitudenmaxima der Kondensatorspannung eines RLC-Kreises in Abhängigkeit der Zeit}
+  \label{fig:b}
+\end{figure}
+
+\noindent Der Dämpfungswiderstand $R_{eff}$ ergibt sich duch
+Zusammenhang (REFERENZ) als
+
+WERT.
+
+\noindent Die Abweichung zum eigentlichen Widerstandwert $R=(30,3 \pm 0,1)\,\si{\ohm}$
+lässt sich durch den Innenwiderstand des Generators erklären,
+welcher $R_G=600\,\si{\ohm}$ beträgt.
+
+
+
+
+
+\subsection{Aperiodischer Grenzfall}
+Bei der Messung nach (REFERENZ AUF DURCHFÜHRUNG)
+ergab sich für $R_{ap}$ ein Wert von
+
+\begin{equation*}
+  R_{ap}=1,4\,\si{\kilo\ohm}
+\end{equation*}
+
+Mit Gleichung (REFERENZ) lässt sich $R_{ap}$ 
+als
+
+\begin{equation*}
+  R_{ap}=1,67\,\si{\kilo\ohm}
+\end{equation*}
+
+berechnen. Beim Verglich mit dem Messwert fällt wieder 
+auf, dass sich die Abweichung durch den nicht beachteten
+Innenwiderstand $R_G=600\,\si{\ohm}$ des Generators erklären lässt.
+
+
+
+
+\subsection{Frequenzabhängigkeit der Kondensatorspannung}
+
+\begin{table}[H]
+  \centering
+  
+  \csvreader[tabular=c|c,
+  head=false, 
+  table head= $\omega\:/\:\si{\kilo\hertz}$ & $U_C\:/\:\si{\volt}$ \\
+  \midrule,
+  late after line= \\]
+  {tabelle2.csv}{1=\eins, 2=\zwei}{$\num{\eins}$ & $\num{\zwei}$}
+  
+  \caption{Frequenzabhängigkeit der Kondensatorspannung bei einer erzwungenen Schwingung}
+  \label{tab:b}
+\end{table}
+
+\begin{figure}[H]
   \centering
   \includegraphics{build/plot2.pdf}
-  \caption{Amplitudenmaximum der Kondensatorspannung eines RLC-Kreises in Abhängigkeit der Zeit.}
-  \label{fig:plot}
+  \caption{Frequenzabhängigkeit der Kondensatorspannung bei einer erzwungenen Schwingung}
+  \label{fig:c}
 \end{figure}
 
-\begin{figure}
+
+\noindent Die Messwerte aus Tabelle \ref{tab:b} werden
+in Abbildung \ref{fic:c} dargestellt. Dabei ist $U_0$ 
+der gemessene Wert $U_0=2,3\,\si{\volt} $ der Generatorspannung. Die Resonanzüberhöhung
+lässt sich als
+
+\begin{equation*}
+  q=2,52
+\end{equation*}
+
+\noindent ablesen. Dieser lässt sich mit dem nach Gleichung
+(REFERENZ) als 
+
+\begin{equation*}
+  q=0,9599\pm0,0024
+\end{equation*}
+\noindent errechneten Wert vergleichen. Für diesen wurde
+nun $R=(271,6\pm0,1)\,\si{\ohm} + 600\,\si{\ohm}$ angenommen. (VERGLEICH)In Abbildung (REFERENZ) ist der Bereich
+um die Resonanzfrequenz linear dargestellt.
+\begin{figure}[H]
   \centering
   \includegraphics{build/plot3.pdf}
-  \caption{Amplitudenmaximum der Kondensatorspannung eines RLC-Kreises in Abhängigkeit der Zeit.}
+  \caption{Frequenzabhängigkeit der Kondensatorspannung bei einer erzwungenen Schwingung in Nähe der Resonanz}
   \label{fig:plot}
 \end{figure}
 
 
 
+\subsection{Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung}
 
+\begin{table}[H]
+  \centering
+  
+  \csvreader[tabular=c|c|c|c,
+  head=false, 
+  table head= $\omega\:/\:\si{\kilo\hertz}$ & $a\:/\:\si{\micro\second}$ & $b\:/\:\si{\micro\second}$ & $\phi$ \\
+  \midrule,
+  late after line= \\]
+  {tabelle1.csv}{1=\eins, 2=\zwei, 3=\drei, 4=\vier}{$\num{\eins}$ & $\num{\zwei}$ & $\num{\drei}$ & $\num{\vier}$}
+  
+  \caption{Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung}
+  \label{tab:a}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics{build/plot4.pdf}
+  \caption{Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung}
+  \label{fig:plot}
+\end{figure}
+\noindent Die Messwerte aus Tabelle (REFERENZ) werden in Abbildung
+(REFERENZ) dargestellt. In Abbildung (REFERENZ) ist
+der Bereich um die Resonanzfrequenz linear dargestellt.
+Diese lässt sich an der Stelle $\pi/2$ als
+
+(WERT)
+
+
+\noindent ablesen. Im Vergleich zum gerechneten Wert
+
+(WERT)
+
+\noindent fällt auf, dass(VERGLEICH).
+\begin{figure}[H]
+  \centering
+  \includegraphics{build/plot5.pdf}
+  \caption{Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung in Nähe der Resonanz}
+  \label{fig:plot}
+\end{figure}
+\noindent $\omega_1$ liegt bei $\pi/4$ und entspricht
+somit dem Messwert
+
+(WERT).
+
+
+\noindent $\omega_1$ liegt bei $\pi \cdot 3/4$ und entspricht
+somit dem Messwert
+
+(WERT).
+
+Diese Werte können mit den beiden aus Gleichung (REFERENZ)
+errechneten Werten 
+
+(WERTE)
+
+\noindent verglichen werden. (VERGLEICH)
 
 

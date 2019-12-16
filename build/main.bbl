@@ -39,7 +39,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Versuchsanleitung-Das Relaxationsverhalten eines RC-Kreises}
-<<<<<<< HEAD
       \true{nocite}
     \endentry
     \entry{sample354}{manual}{}
@@ -63,8 +62,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Versuchsanleitung-Gedämpfte und erzwungene Schwingungen}
       \true{nocite}
-=======
->>>>>>> a556d674ed6ba2259a24896bc3bd65a077b691c2
     \endentry
     \entry{matplotlib}{article}{}
       \name{author}{1}{}{%
