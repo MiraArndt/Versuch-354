@@ -9,7 +9,8 @@
 \contentsline {subsubsection}{\numberline {2.2.3}Der aperiodische Grenzfall}{6}{subsubsection.2.2.3}% 
 \contentsline {subsection}{\numberline {2.3}Erzwungene Schwingungen}{7}{subsection.2.3}% 
 \contentsline {section}{\numberline {3}Durchführung}{8}{section.3}% 
-\contentsline {section}{\numberline {4}Auswertung}{8}{section.4}% 
-\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}% 
-\contentsline {section}{\numberline {6}Anhang}{10}{section.6}% 
-\contentsline {section}{\nonumberline Literatur}{10}{section*.10}% 
+\contentsline {subsubsection}{\numberline {3.0.1}Untersuchung der Amplitude und Berechnung des Dämpfungwiderstandes}{8}{subsubsection.3.0.1}% 
+\contentsline {section}{\numberline {4}Auswertung}{9}{section.4}% 
+\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}% 
+\contentsline {section}{\numberline {6}Anhang}{11}{section.6}% 
+\contentsline {section}{\nonumberline Literatur}{11}{section*.11}% 
