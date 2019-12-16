@@ -10,7 +10,10 @@
 \contentsline {subsection}{\numberline {2.3}Erzwungene Schwingungen}{7}{subsection.2.3}% 
 \contentsline {section}{\numberline {3}Durchführung}{8}{section.3}% 
 \contentsline {subsubsection}{\numberline {3.0.1}Untersuchung der Amplitude und Berechnung des Dämpfungwiderstandes}{8}{subsubsection.3.0.1}% 
-\contentsline {section}{\numberline {4}Auswertung}{9}{section.4}% 
-\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}% 
-\contentsline {section}{\numberline {6}Anhang}{11}{section.6}% 
-\contentsline {section}{\nonumberline Literatur}{11}{section*.11}% 
+\contentsline {subsubsection}{\numberline {3.0.2}Berechung von dem Widerstand $R_{ap}$}{9}{subsubsection.3.0.2}% 
+\contentsline {subsubsection}{\numberline {3.0.3}Frequenzabhängigkeit der Kondensatorspannung}{10}{subsubsection.3.0.3}% 
+\contentsline {subsubsection}{\numberline {3.0.4}Frequenzabhängigkeit der Phasenverschiebung}{10}{subsubsection.3.0.4}% 
+\contentsline {section}{\numberline {4}Auswertung}{11}{section.4}% 
+\contentsline {section}{\numberline {5}Diskussion}{13}{section.5}% 
+\contentsline {section}{\numberline {6}Anhang}{13}{section.6}% 
+\contentsline {section}{\nonumberline Literatur}{13}{section*.14}% 

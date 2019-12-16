@@ -360,6 +360,16 @@ INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbol
 INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT ./content/aufgabeA.png
 INPUT ./content/aufgabeA.png
+INPUT ./content/aufgabeB.png
+INPUT ./content/aufgabeB.png
+INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./content/aufgabeC.png
+INPUT ./content/aufgabeC.png
+INPUT ./content/aufgabeD.png
+INPUT ./content/aufgabeD.png
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
 INPUT ./build/plot1.pdf
