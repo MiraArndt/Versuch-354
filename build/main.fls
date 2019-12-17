@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 PWD /home/mira/Documents/Latex/Versuch-354
 INPUT /home/mira/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt
-=======
-PWD /mnt/c/Users/nicos/Desktop/Praktikum/Versuch-354/Versuch-354
-INPUT /home/nico/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt
->>>>>>> 4acaa3fc17a88aad72059c7b15e99d399323487c
 INPUT ./main.tex
 OUTPUT build/main.log
 INPUT /home/mira/.local/texlive/2019/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua
@@ -361,8 +356,8 @@ INPUT ./content/UngedaempfterSchwingkreis.png
 INPUT ./content/UngedaempfterSchwingkreis.png
 INPUT ./content/GedaempfterSchwingkreis.png
 INPUT ./content/GedaempfterSchwingkreis.png
-INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
-INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
+INPUT /home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
+INPUT /home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT ./content/VerlaufGedaempfteSchwingung.png
 INPUT ./content/VerlaufGedaempfteSchwingung.png
 INPUT ./content/faellevonschwingungen.png
@@ -371,7 +366,6 @@ INPUT ./content/ErzwungenerSchwingkreis.png
 INPUT ./content/ErzwungenerSchwingkreis.png
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
-<<<<<<< HEAD
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
@@ -384,35 +378,14 @@ INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbol
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-=======
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
->>>>>>> 4acaa3fc17a88aad72059c7b15e99d399323487c
 INPUT ./content/aufgabeA.png
 INPUT ./content/aufgabeA.png
 INPUT ./content/aufgabeB.png
 INPUT ./content/aufgabeB.png
-<<<<<<< HEAD
 INPUT /home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-=======
-INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
->>>>>>> 4acaa3fc17a88aad72059c7b15e99d399323487c
 INPUT ./content/aufgabeC.png
 INPUT ./content/aufgabeC.png
 INPUT ./content/aufgabeD.png
@@ -442,11 +415,7 @@ INPUT ./content/anhang.tex
 INPUT ./content/anhang.tex
 INPUT ./content/Anhang.jpg
 INPUT ./content/Anhang.jpg
-<<<<<<< HEAD
 INPUT /home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
-=======
-INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
->>>>>>> 4acaa3fc17a88aad72059c7b15e99d399323487c
 INPUT build/main.aux
 INPUT build/main.run.xml
 OUTPUT build/main.run.xml
