@@ -1,6 +1,7 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 \subsection{Dämpfung des elektischen Schwingkreises}
+\label{sec:dae}
 \begin{figure}[H]
   \centering
   \includegraphics[width=13cm]{content/Auswertung.jpg}
@@ -31,7 +32,7 @@ erstellt, welche in Abbildung \ref{fig:b} zu sehen ist.
 Die Steigung
 
 \begin{equation*}
-  m=-0,01032\cdot 10^{-3}
+  m=(-0,01032\pm0,00029)\cdot 10^{-3}\,\si{\second}^{-1}
 \end{equation*}
 
 \noindent dieser Geraden entspricht dem Faktor im Exponenten in Gleichung \ref{eq:a1},
@@ -40,7 +41,7 @@ kann nach Gleichung \ref{eq:a2} durch das
 Inverse des Betrags der Steigung als 
 
 \begin{equation*}
-  T_{ex}=96,9\cdot10^{3}\,\si{\second}
+  T_{ex}=(96,9\pm2,7)\cdot10^{3}\,\si{\second}
 \end{equation*}
 
 \noindent berechnet werden. Mit der Abklingdauer kann nun eine nichtlineare Ausgleichskurve
@@ -66,19 +67,19 @@ Messwerten in Abbilung \ref{fig:a} zu sehen.
 Zusammenhang \ref{eq:a2} als
 
 \begin{equation*}
-  R_{eff}=(0,07224\pm0,0021)\,\si{\ohm}
+  R_{eff}=(0,07224\pm0,0021)\cdot10^{-3}\,\si{\ohm}
 \end{equation*}
 
 \noindent Die Abweichung zum eigentlichen Widerstandwert $R=(30,3 \pm 0,1)\,\si{\ohm}$
-lässt sich durch den Innenwiderstand des Generators erklären,
-welcher $R_G=600\,\si{\ohm}$ beträgt.(INVERSES KLÄREN)
+lässt sich nicht allein durch den Innenwiderstand des Generators erklären,
+welcher $R_G=600\,\si{\ohm}$ beträgt, denn damit würde $R=(30,3\pm0,1)\,\si{\ohm} + 600\,\si{\ohm}$
 
 
 
 
 
 \subsection{Aperiodischer Grenzfall}
-Bei der Messung nach (REFERENZ AUF DURCHFÜHRUNG)
+Bei der Messung nach \ref{sec:ap}
 ergab sich für $R_{ap}$ ein Wert von
 
 \begin{equation*}
@@ -89,10 +90,10 @@ ergab sich für $R_{ap}$ ein Wert von
 als
 
 \begin{equation*}
-  R_{ap}=1,67\,\si{\kilo\ohm}
+  R_{ap}=(1,673\pm0,004)\,\si{\kilo\ohm}
 \end{equation*}
 
-\noindent berechnen. Beim Verglich mit dem Messwert fällt wieder 
+\noindent berechnen. Beim Verglich mit dem Messwert fällt 
 auf, dass sich die Abweichung durch den nicht beachteten
 Innenwiderstand $R_G=600\,\si{\ohm}$ des Generators erklären lässt.
 
@@ -139,7 +140,7 @@ lässt sich als
   q=0,9599\pm0,0024
 \end{equation*}
 \noindent errechneten Wert vergleichen. Für diesen wurde
-nun $R=(271,6\pm0,1)\,\si{\ohm} + 600\,\si{\ohm}$ angenommen. (VERGLEICH)
+nun $R=(271,6\pm0,1)\,\si{\ohm} + 600\,\si{\ohm}$ angenommen.
 In Abbildung \ref{fig:g} ist der Bereich
 um die Resonanzfrequenz linear dargestellt.
 \begin{figure}[H]
@@ -190,7 +191,8 @@ gerechneten Wert
   \omega_{res}=(161,7\pm0,7)\,\si{\kilo\hertz}
 \end{equation*}
 
-\noindent fällt auf, dass(VERGLEICH). Auch hier wurde $R=(271,6\pm0,1)\,\si{\ohm} + 600\,\si{\ohm}$ angenommen.
+\noindent fällt auf, dass der Theoriewert weit unter dem gemessenen Wert liegt.
+Auch hier wurde $R=(271,6\pm0,1)\,\si{\ohm} + 600\,\si{\ohm}$ angenommen.
 \begin{figure}[H]
   \centering
   \includegraphics{build/plot5.pdf}
@@ -221,6 +223,6 @@ errechneten Werten
   \omega_2=(394\pm0,9)\,\si{\kilo\hertz}
 \end{equation*}
 
-\noindent verglichen werden. (VERGLEICH)
+\noindent verglichen werden.
 
 
