@@ -209,7 +209,13 @@ beziehungsweise für dessen Betrag
 \begin{equation}
     |\tilde{U}_C(\omega)| = U_C(\omega)= \frac{U_0}{\sqrt{(1-LC\omega)^{2})^{2}+\omega^{2}R^{2}C^{2}}}.
 \end{equation}
-Diese wird auch als Resonanzkurve bezeichnet. Für $\omega \rightarrow \infty$ gilt
+Diese wird auch als Resonanzkurve bezeichnet. Zusätzlich ergibt sich als Zusammenhang
+zwischen Phasenverschiebung und Frequenz $\omega$
+\begin{equation}
+    \phi(\omega) = \arctan{\frac{-\omega RC}{1-LC \omega^{2}}}.
+\end{equation}
+\noindent
+Für $\omega \rightarrow \infty$ gilt
 $U_C \rightarrow 0$ und für $\omega \rightarrow 0$ gilt $U_C \rightarrow U_0$. Falls die 
 sogenannte Resonanzfrequenz 
 \begin{equation}
@@ -245,4 +251,10 @@ angegeben, an denen die Kondensatorspannung, unter der Bedingung
 $\frac{R^{2}}{L{2}} \ll \omega_0^{2}$, auf das $\frac{1}{\sqrt{2}}$-fache
 ihres Maximalwerts abgefallen ist.  
 
-\cite{sample}
+Für $\frac{R^{2}}{2L^{2}} \gg \frac{1}{LC}$ liegt eine starke Dämpfung vor. Bei $\omega_0$ liegt
+eine Phasenverschiebung von $\phi = -\frac{\pi}{2}$ vor. Die Frequenzen $\omega_1$ (bei $\phi = \frac{\pi}{4}$) und
+$\omega_2$ (bei $\phi = \frac{3}{4}\pi$) lassen sich mit 
+\begin{equation}
+    \omega_{1,2} = \pm \frac{R}{2L} + \sqrt{\frac{R^{2}}{4L^{2}}+\frac{1}{LC}}
+\end{equation}
+\noindent berechnen.
