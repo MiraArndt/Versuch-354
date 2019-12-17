@@ -115,9 +115,10 @@ sie sich mithilfe der Euler-Formel in die Form
     U_2 = \frac{1}{2} A_0 e^{-i \eta}
 \end{align*}
 \noindent bringen. Somit kann die Gleichung \ref{eq:Stromstaerke} in
-\begin{equation*}
+\begin{equation}
     I(t) = A_0 e^{-2\pi \mu t} \cos{2\pi \nu t + \eta}
-\end{equation*}
+    \label{eq:a1}
+\end{equation}
 \noindent umgeformt werden. In diesem Fall liegt also eine gedämpfte harmonische Schwingung vor, 
 dessen Amplitude mit fortlaufender Zeit exponentiell abnimmt. Die Schwingungsdauer kann
 mit Hilfe des Zusammenhangs $T = \frac{1}{\nu}$ ermittelt werden. Für die allgemeine 
@@ -128,6 +129,7 @@ gedämpfte Schwingung ergibt sich
 \noindent wobei zusätzlich die Abnahmegeschwindigkeit der Amplitude durch den Wert 
 \begin{equation}
     T_{ex} = \frac{1}{2\pi\mu} = \frac{2L}{R}
+    \label{eq:a2}
 \end{equation}
 \noindent beschrieben werden kann, welcher angibt, wann die Amplitude sich um den Faktor $e$
 verkleinert hat.
@@ -214,6 +216,7 @@ $U_C \rightarrow 0$ und für $\omega \rightarrow 0$ gilt $U_C \rightarrow U_0$. 
 sogenannte Resonanzfrequenz 
 \begin{equation}
     \omega_{res} = \sqrt{\frac{1}{LC} - \frac{R^{2}}{2L^{2}}}
+    \label{eq:res}
 \end{equation}
 \noindent 
 sich der Eigenfrequenz 
@@ -235,6 +238,7 @@ den Zusammenhang darstellt. Falls $R \rightarrow 0$ strebt, geht $U_C \rightarro
 wird als Resonanzkatastrophe bezeichnet. Die Güte des Schwingkreises ergibt sich durch
 \begin{equation}
     q = \frac{1}{\omega_0 RC}.
+    \label{eq:b1}
 \end{equation}
 \noindent
 Weiterhin wird die Breite der Resonanzkurve durch die Differenz der beiden Frequenzen 

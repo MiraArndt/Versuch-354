@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 PWD /home/mira/Documents/Latex/Versuch-354
 INPUT /home/mira/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt
-=======
-PWD /mnt/c/Users/nicos/Desktop/Praktikum/Versuch-354/Versuch-354
-INPUT /home/nico/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
 INPUT ./main.tex
 OUTPUT build/main.log
 INPUT /home/mira/.local/texlive/2019/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua
@@ -357,27 +352,24 @@ INPUT ./content/ziel.tex
 INPUT ./content/ziel.tex
 INPUT ./content/theorie.tex
 INPUT ./content/theorie.tex
-<<<<<<< HEAD
+INPUT ./content/UngedaempfterSchwingkreis.png
+INPUT ./content/UngedaempfterSchwingkreis.png
+INPUT ./content/GedaempfterSchwingkreis.png
+INPUT ./content/GedaempfterSchwingkreis.png
 INPUT /home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT /home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
-=======
-INPUT ./content/UngedaempfterSchwingkreis.png
-INPUT ./content/UngedaempfterSchwingkreis.png
-INPUT ./content/GedaempfterSchwingkreis.png
-INPUT ./content/GedaempfterSchwingkreis.png
-INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
-INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT ./content/VerlaufGedaempfteSchwingung.png
 INPUT ./content/VerlaufGedaempfteSchwingung.png
 INPUT ./content/faellevonschwingungen.png
 INPUT ./content/faellevonschwingungen.png
 INPUT ./content/ErzwungenerSchwingkreis.png
 INPUT ./content/ErzwungenerSchwingkreis.png
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
+INPUT ./content/Auswertung.jpg
+INPUT ./content/Auswertung.jpg
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
@@ -409,11 +401,9 @@ INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT ./content/anhang.tex
 INPUT ./content/anhang.tex
-<<<<<<< HEAD
+INPUT ./content/Anhang.jpg
+INPUT ./content/Anhang.jpg
 INPUT /home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
-=======
-INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
 INPUT build/main.aux
 INPUT build/main.run.xml
 OUTPUT build/main.run.xml

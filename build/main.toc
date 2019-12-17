@@ -4,24 +4,16 @@
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}% 
 \contentsline {subsection}{\numberline {2.1}Der ideale Schwingkreis}{3}{subsection.2.1}% 
 \contentsline {subsection}{\numberline {2.2}Der reale Schwingkreis}{3}{subsection.2.2}% 
-<<<<<<< HEAD
-\contentsline {section}{\numberline {3}Durchführung}{4}{section.3}% 
-\contentsline {section}{\numberline {4}Auswertung}{4}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Dämpfung des elektischen Schwingkreises}{4}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Aperiodischer Grenzfall}{7}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Frequenzabhängigkeit der Kondensatorspannung}{8}{subsection.4.3}% 
-\contentsline {subsection}{\numberline {4.4}Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung}{11}{subsection.4.4}% 
-\contentsline {section}{\numberline {5}Diskussion}{13}{section.5}% 
-\contentsline {section}{\numberline {6}Anhang}{13}{section.6}% 
-\contentsline {section}{\nonumberline Literatur}{13}{section*.11}% 
-=======
 \contentsline {subsubsection}{\numberline {2.2.1}Der Schwingfall}{5}{subsubsection.2.2.1}% 
 \contentsline {subsubsection}{\numberline {2.2.2}Der Kriechfall}{6}{subsubsection.2.2.2}% 
 \contentsline {subsubsection}{\numberline {2.2.3}Der aperiodische Grenzfall}{6}{subsubsection.2.2.3}% 
 \contentsline {subsection}{\numberline {2.3}Erzwungene Schwingungen}{7}{subsection.2.3}% 
-\contentsline {section}{\numberline {3}Durchführung}{8}{section.3}% 
-\contentsline {section}{\numberline {4}Auswertung}{8}{section.4}% 
-\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}% 
-\contentsline {section}{\numberline {6}Anhang}{10}{section.6}% 
-\contentsline {section}{\nonumberline Literatur}{10}{section*.10}% 
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
+\contentsline {section}{\numberline {3}Durchführung}{9}{section.3}% 
+\contentsline {section}{\numberline {4}Auswertung}{9}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Dämpfung des elektischen Schwingkreises}{9}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Aperiodischer Grenzfall}{12}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Frequenzabhängigkeit der Kondensatorspannung}{13}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung}{16}{subsection.4.4}% 
+\contentsline {section}{\numberline {5}Diskussion}{18}{section.5}% 
+\contentsline {section}{\numberline {6}Anhang}{19}{section.6}% 
+\contentsline {section}{\nonumberline Literatur}{21}{section*.18}% 

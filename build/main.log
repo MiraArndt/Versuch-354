@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.9)  15 DEC 2019 09:35
-=======
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.21)  14 DEC 2019 11:08
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.9)  17 DEC 2019 09:45
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -41,13 +37,8 @@ Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' at position 4 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'.
-<<<<<<< HEAD
-luaotfload | main : initialization completed in 0.125 seconds
+luaotfload | main : initialization completed in 0.121 seconds
 (./header.tex (/home/mira/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
-=======
-luaotfload | main : initialization completed in 0.169 seconds
-(./header.tex (/home/nico/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 (/home/mira/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -1524,17 +1515,7 @@ Package biblatex Info: ... file 'german.lbx' found.
 File: german.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 )) (./build/main.aux
 
-<<<<<<< HEAD
-LaTeX Warning: Label `tab:a' multiply defined.
-=======
 LaTeX Warning: Label `fig:gsk' multiply defined.
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
-
-
-LaTeX Warning: Label `fig:plot' multiply defined.
-
-
-LaTeX Warning: Label `fig:plot' multiply defined.
 
 )
 \openout1 = main.aux
@@ -1688,123 +1669,111 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \openout5 = main.toc
  [2
 
-<<<<<<< HEAD
-] (./content/ziel.tex) (./content/theorie.tex [3]
-
-LaTeX Warning: Citation 'sample' on page 4 undefined on input line 90.
-
-) (./content/durchfuehrung.tex) (./content/auswertung.tex [4]
-<build/plot1.pdf, id=81, 417.7206pt x 258.0049pt>
-=======
 ] (./content/ziel.tex) (./content/theorie.tex
-<content/UngedaempfterSchwingkreis.png, id=48, 165.61874pt x 103.13531pt>
+<content/UngedaempfterSchwingkreis.png, id=57, 165.61874pt x 103.13531pt>
 File: content/UngedaempfterSchwingkreis.png Graphic file (type png)
 <use content/UngedaempfterSchwingkreis.png>
 Package luatex.def Info: content/UngedaempfterSchwingkreis.png  used on input line 18.
 (luatex.def)             Requested size: 165.61833pt x 103.13504pt.
-<content/GedaempfterSchwingkreis.png, id=49, 225.84375pt x 134.00063pt>
+<content/GedaempfterSchwingkreis.png, id=58, 225.84375pt x 134.00063pt>
 File: content/GedaempfterSchwingkreis.png Graphic file (type png)
 <use content/GedaempfterSchwingkreis.png>
 Package luatex.def Info: content/GedaempfterSchwingkreis.png  used on input line 34.
 (luatex.def)             Requested size: 225.84319pt x 134.00027pt.
  [3<./content/UngedaempfterSchwingkreis.png>] [4<./content/GedaempfterSchwingkreis.png>]
-<content/VerlaufGedaempfteSchwingung.png, id=75, 301.125pt x 124.96687pt>
+<content/VerlaufGedaempfteSchwingung.png, id=84, 301.125pt x 124.96687pt>
 File: content/VerlaufGedaempfteSchwingung.png Graphic file (type png)
 <use content/VerlaufGedaempfteSchwingung.png>
-Package luatex.def Info: content/VerlaufGedaempfteSchwingung.png  used on input line 137.
+Package luatex.def Info: content/VerlaufGedaempfteSchwingung.png  used on input line 139.
 (luatex.def)             Requested size: 301.12425pt x 124.96657pt.
  [5]
 
-LaTeX Warning: Command \l invalid in math mode on input line 145.
+LaTeX Warning: Command \l invalid in math mode on input line 147.
 
 Missing character: There is no ł (U+0142) in font cmmi10!
-<content/faellevonschwingungen.png, id=91, 301.125pt x 145.29282pt>
+<content/faellevonschwingungen.png, id=101, 301.125pt x 145.29282pt>
 File: content/faellevonschwingungen.png Graphic file (type png)
 <use content/faellevonschwingungen.png>
-Package luatex.def Info: content/faellevonschwingungen.png  used on input line 166.
+Package luatex.def Info: content/faellevonschwingungen.png  used on input line 168.
 (luatex.def)             Requested size: 301.12425pt x 145.29245pt.
 [6
 Missing character: There is no 𝜈 (U+1D708) in font [lmroman10-regular]:+tlig;!
 <./content/VerlaufGedaempfteSchwingung.png>]
-<content/ErzwungenerSchwingkreis.png, id=100, 225.84375pt x 118.94438pt>
+<content/ErzwungenerSchwingkreis.png, id=110, 225.84375pt x 118.94438pt>
 File: content/ErzwungenerSchwingkreis.png Graphic file (type png)
 <use content/ErzwungenerSchwingkreis.png>
-Package luatex.def Info: content/ErzwungenerSchwingkreis.png  used on input line 184.
+Package luatex.def Info: content/ErzwungenerSchwingkreis.png  used on input line 186.
 (luatex.def)             Requested size: 225.84319pt x 118.94408pt.
  [7<./content/faellevonschwingungen.png><./content/ErzwungenerSchwingkreis.png>]
 
-LaTeX Warning: Citation 'sample' on page 8 undefined on input line 248.
+LaTeX Warning: Citation 'sample' on page 8 undefined on input line 252.
 
 ) (./content/durchfuehrung.tex) (./content/auswertung.tex
-<build/plot1.pdf, id=114, 417.7206pt x 258.0049pt>
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
+warning  (file content/Auswertung.jpg) (readjpg): Exif resolution 72dpi x 72dpi differs from the input resolution 96dpi x 96dpi
+<content/Auswertung.jpg, id=124, 4625.28pt x 3468.96pt>
+File: content/Auswertung.jpg Graphic file (type jpg)
+<use content/Auswertung.jpg>
+Package luatex.def Info: content/Auswertung.jpg  used on input line 6.
+(luatex.def)             Requested size: 369.88582pt x 277.36368pt.
+[8] [9<./content/Auswertung.jpg
+warning  (readjpg): Exif resolution 72dpi x 72dpi differs from the input resolution 96dpi x 96dpi
+>]
+<build/plot1.pdf, id=148, 417.7206pt x 258.0049pt>
 File: build/plot1.pdf Graphic file (type pdf)
 <use build/plot1.pdf>
-Package luatex.def Info: build/plot1.pdf  used on input line 48.
+Package luatex.def Info: build/plot1.pdf  used on input line 53.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
- [5]
-<build/plot1-1.pdf, id=91, 417.7206pt x 258.0049pt>
+ [10]
+<build/plot1-1.pdf, id=157, 417.7206pt x 258.0049pt>
 File: build/plot1-1.pdf Graphic file (type pdf)
 <use build/plot1-1.pdf>
-Package luatex.def Info: build/plot1-1.pdf  used on input line 55.
+Package luatex.def Info: build/plot1-1.pdf  used on input line 60.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<<<<<<< HEAD
- [6<./build/plot1.pdf>] [7<./build/plot1-1.pdf>]
-<build/plot2.pdf, id=149, 417.7206pt x 258.0049pt>
-=======
-<build/plot2.pdf, id=115, 417.7206pt x 258.0049pt>
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
+ [11<./build/plot1.pdf>] [12<./build/plot1-1.pdf>]
+<build/plot2.pdf, id=217, 417.7206pt x 258.0049pt>
 File: build/plot2.pdf Graphic file (type pdf)
 <use build/plot2.pdf>
-Package luatex.def Info: build/plot2.pdf  used on input line 113.
+Package luatex.def Info: build/plot2.pdf  used on input line 120.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<<<<<<< HEAD
- [8]
-
-LaTeX Warning: Reference `fic:c' on page 9 undefined on input line 120.
-
-<build/plot3.pdf, id=156, 417.7206pt x 258.0049pt>
-=======
-<build/plot3.pdf, id=116, 417.7206pt x 258.0049pt>
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
+ [13]
+<build/plot3.pdf, id=227, 417.7206pt x 258.0049pt>
 File: build/plot3.pdf Graphic file (type pdf)
 <use build/plot3.pdf>
-Package luatex.def Info: build/plot3.pdf  used on input line 139.
+Package luatex.def Info: build/plot3.pdf  used on input line 147.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<<<<<<< HEAD
-[9<./build/plot2.pdf>] [10<./build/plot3.pdf>]
-<build/plot4.pdf, id=216, 417.7206pt x 258.0049pt>
+ [14<./build/plot2.pdf>] [15<./build/plot3.pdf>]
+<build/plot4.pdf, id=288, 417.7206pt x 258.0049pt>
 File: build/plot4.pdf Graphic file (type pdf)
 <use build/plot4.pdf>
-Package luatex.def Info: build/plot4.pdf  used on input line 164.
+Package luatex.def Info: build/plot4.pdf  used on input line 172.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
- [11]
-<build/plot5.pdf, id=222, 417.7206pt x 258.0049pt>
+ [16]
+<build/plot5.pdf, id=298, 417.7206pt x 258.0049pt>
 File: build/plot5.pdf Graphic file (type pdf)
 <use build/plot5.pdf>
-Package luatex.def Info: build/plot5.pdf  used on input line 183.
+Package luatex.def Info: build/plot5.pdf  used on input line 196.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
- [12<./build/plot4.pdf>]) (./content/diskussion.tex) (./content/anhang.tex) [13<./build/plot5.pdf>] [14]
+ [17<./build/plot4.pdf>]) (./content/diskussion.tex) (./content/anhang.tex [18<./build/plot5.pdf>]
+<content/Anhang.jpg, id=355, 1503.6175pt x 2086.79625pt>
+File: content/Anhang.jpg Graphic file (type jpg)
+<use content/Anhang.jpg>
+Package luatex.def Info: content/Anhang.jpg  used on input line 4.
+(luatex.def)             Requested size: 426.79134pt x 592.32314pt.
+
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 4--5
+ [][] 
+ []
+
+) [19] [20<./content/Anhang.jpg>] [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
-=======
-) (./content/diskussion.tex [8] [9<./build/plot1.pdf><./build/plot2.pdf>]) (./content/anhang.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
- [10<./build/plot3.pdf>]
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
  (./build/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-<<<<<<< HEAD
-(rerunfilecheck)             Checksum: BD05C8D0FCF115D044E799F713BF2FA0;11931.
+(rerunfilecheck)             Checksum: D77C6E208DCEA748902947C353BCF5FD;16063.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 309DD0F895E39279D751CAE82CD4B664;1233.
-=======
-(rerunfilecheck)             Checksum: 51B35B82EA8DEFD69E8F5AF6A387FB1D;10037.
-Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 7DCAB353C3CAE0D0EE5D90738AEBE6B3;1144.
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
+(rerunfilecheck)             Checksum: 908D11A1769EC9CBA9C851549E677397;1611.
 
 
 LaTeX Warning: There were undefined references.
@@ -1823,36 +1792,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
-<<<<<<< HEAD
- 45135 strings out of 494291
+ 45228 strings out of 494291
  100000,1977958 words of node,token memory allocated
- 832 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 66 attribute, 80 glue_spec, 35 attribute_list, 2 write, 3 pdf_action nodes
-   avail lists: 1:4,2:2408,3:254,4:38,5:191,6:28,7:2390,8:50,9:623,10:26,11:233
- 48061 multiletter control sequences out of 65536+600000
- 150 fonts using 55254719 bytes
+ 1029 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 130 attribute, 81 glue_spec, 67 attribute_list, 2 write, 3 pdf_action nodes
+   avail lists: 1:4,2:2393,3:279,4:20,5:213,6:36,7:1887,8:53,9:623,10:6,11:170
+ 48107 multiletter control sequences out of 65536+600000
+ 150 fonts using 55254255 bytes
  57i,14n,109p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (14 pages, 127040 bytes).
+</home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (21 pages, 4272260 bytes).
 
-PDF statistics: 409 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 131072)
-=======
- 43742 strings out of 494291
- 100000,1977958 words of node,token memory allocated
- 924 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 98 attribute, 81 glue_spec, 51 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:628,3:117,4:20,5:210,6:29,7:1701,8:53,9:310,10:6,11:160
- 46787 multiletter control sequences out of 65536+600000
- 106 fonts using 37877799 bytes
- 57i,11n,109p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (10 pages, 139070 bytes).
-
-PDF statistics: 340 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 131072)
->>>>>>> d3b2114ae91c017071563e516c3fd4388623cf9e
- 105 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 514 PDF objects out of 1000 (max. 8388607)
+ 385 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 131072)
+ 137 words of extra memory for PDF output out of 10000 (max. 100000000)
 
