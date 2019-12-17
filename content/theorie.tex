@@ -16,7 +16,7 @@ wiederholt sich der Vorgang.
 \begin{figure}[H]
   \centering
   \includegraphics{content/UngedaempfterSchwingkreis.png}
-  \caption{Schaltskizze eines ungedämpften Schwingkreises}
+  \caption{Schaltskizze eines ungedämpften Schwingkreises \cite{sample354}}
   \label{fig:ugsk}
 \end{figure}
 
@@ -32,7 +32,7 @@ Schwingkreis bezeichnet.
 \begin{figure}[H]
   \centering
   \includegraphics{content/GedaempfterSchwingkreis.png}
-  \caption{Schaltskizze eines gedämpften Schwingkreises}
+  \caption{Schaltskizze eines gedämpften Schwingkreises \cite{sample354}}
   \label{fig:gsk}
 \end{figure}
 
@@ -106,7 +106,7 @@ werden sollen.
 
 
 \subsubsection{Der Schwingfall}
-Der erste Fall tritt dann ein, wenn $\frac{1}{LC} > \frac{R^{2}}{4L^{2}}$ gilt, was bedeutet,
+Der erste Fall tritt dann ein, wenn $1/LC > R^{2}/4L^{2}$ gilt, was bedeutet,
 dass $\nu_{1,2}$ zu imaginären Größen werden. Damit eine reelle Lösung zustande kommt, muss
 zwischen $U_1$ und $U_2$ notwendigerweise die Beziehung $U_1 = \bar{U_2}$ gelten. Folglich lassen 
 sie sich mithilfe der Euler-Formel in die Form
@@ -121,7 +121,7 @@ sie sich mithilfe der Euler-Formel in die Form
 \end{equation}
 \noindent umgeformt werden. In diesem Fall liegt also eine gedämpfte harmonische Schwingung vor, 
 dessen Amplitude mit fortlaufender Zeit exponentiell abnimmt. Die Schwingungsdauer kann
-mit Hilfe des Zusammenhangs $T = \frac{1}{\nu}$ ermittelt werden. Für die allgemeine 
+mit Hilfe des Zusammenhangs $T = 1\nu$ ermittelt werden. Für die allgemeine 
 gedämpfte Schwingung ergibt sich 
 \begin{equation}
     T = \frac{2\pi}{\sqrt{\frac{1}{LC}-\frac{R^{2}}{4L^{2}}}}, 
@@ -137,14 +137,14 @@ verkleinert hat.
 \begin{figure}[H]
   \centering
   \includegraphics{content/VerlaufGedaempfteSchwingung.png}
-  \caption{Zeitlicher Verlauf einer gedämpften Schwingung}
+  \caption{Zeitlicher Verlauf einer gedämpften Schwingung \cite{sample354}}
   \label{fig:gsk}
 \end{figure}
 
 
 \subsubsection{Der Kriechfall}
 
-Der zweite Fall tritt ein, falls $\frac{1}{LC} \l \frac{R^{2}}{4L^{2}}$ gilt, was dazu führt, 
+Der zweite Fall tritt ein, falls $1/LC < R^{2}/4L^{2}$ gilt, was dazu führt, 
 dass \nu selbst eine imaginäre Zahl darstellt. Damit enthält Gleichung \ref{eq:Stromstaerke}
 lediglich reelle Exponentialfunktionen, was bedeutet, dass keine Schwingung ausgeführt wird, 
 sondern die Amplitude - abhängig von den Werten $A_1$ und $A_2$ - entweder direkt und 
@@ -154,7 +154,7 @@ und dann gegen null strebt. Diese Verläufe sind in Abbildung \ref{fig:fvs} darg
 
 \subsubsection{Der aperiodische Grenzfall}
 
-Der dritte und letzte Fall tritt ein, wenn $\frac{1}{LC} = \frac{R_{ap}}{4L^{2}}$ gilt, was dazu
+Der dritte und letzte Fall tritt ein, wenn $1/LC = R_{ap}/4L^{2}$ gilt, was dazu
 führt, dass $\nu$ selbst null ergibt. Aus der Bedingung und Gleichung \ref{eq:Stromstaerke} ergibt
 sich für den zeitlichen Verlauf der Stromstärke 
 \begin{equation*}
@@ -166,7 +166,7 @@ das die Stromstärke hierbei noch schneller als beim Kriechfall gegen null streb
 \begin{figure}[H]
   \centering
   \includegraphics{content/faellevonschwingungen.png}
-  \caption{Darstellung des Kriechfalls und des aperiodischen Grenzfalls (gestrichelte Kurve)}
+  \caption{Darstellung des Kriechfalls und des aperiodischen Grenzfalls (gestrichelte Kurve) \cite{sample354}}
   \label{fig:fvs}
 \end{figure}
 
@@ -184,7 +184,7 @@ das die Stromstärke hierbei noch schneller als beim Kriechfall gegen null streb
 \begin{figure}[H]
   \centering
   \includegraphics{content/ErzwungenerSchwingkreis.png}
-  \caption{Schaltskizze eines erzwungenen RLC-Schwingkreises}
+  \caption{Schaltskizze eines erzwungenen RLC-Schwingkreises \cite{sample354}}
   \label{fig:esk}
 \end{figure}
 
@@ -253,10 +253,10 @@ Weiterhin wird die Breite der Resonanzkurve durch die Differenz der beiden Frequ
     \omega_+ - \omega_- \approx \frac{R}{L}
 \end{equation}
 angegeben, an denen die Kondensatorspannung, unter der Bedingung 
-$\frac{R^{2}}{L{2}} \ll \omega_0^{2}$, auf das $\frac{1}{\sqrt{2}}$-fache
+$R^{2}/L^{2} \ll \omega_0^{2}$, auf das $1/\sqrt{2}$-fache
 ihres Maximalwerts abgefallen ist.  
 
-Für $\frac{R^{2}}{2L^{2}} \gg \frac{1}{LC}$ liegt eine starke Dämpfung vor. Bei $\omega_0$ liegt
+Für $R^{2}/2L^{2} \gg 1/LC$ liegt eine starke Dämpfung vor. Bei $\omega_0$ liegt
 eine Phasenverschiebung von $\phi = -\frac{\pi}{2}$ vor. Die Frequenzen $\omega_1$ (bei $\phi = \frac{\pi}{4}$) und
 $\omega_2$ (bei $\phi = \frac{3}{4}\pi$) lassen sich mit 
 \begin{equation}
@@ -264,3 +264,20 @@ $\omega_2$ (bei $\phi = \frac{3}{4}\pi$) lassen sich mit
     \label{eq:bb}
 \end{equation}
 \noindent berechnen.
+
+
+\subsection{Ermittlung der Phasenverschiebung zwischen zwei Spannungen}
+
+Zur Ermittlung der frequenzabhängigen Phasenverschiebung zwischen der Kondensatorspannung $U_C$ 
+und der Generatorspannung $U$, muss der zeitliche Abstnad der beiden Nulldurchgänge der Spannungen 
+(in Abbildung \ref{fig:phase} $a$ genannt) durch die Periodendauer (in Abbilung \ref{fig:phase} $b$ genannt)
+dividiert werden und abhängig davon, ob das Ergebnis in Grad oder Radiant angegeben werden soll,
+mit dem Faktor $c = 360$ oder $d = 2\pi$ multipliziert werden.
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics{content/phase.png}
+  \caption{Messung der Phasenverschiebung zwischen Generatorspannung und Kondensatorspannung \cite{sample354}}
+  \label{fig:phase}
+\end{figure}

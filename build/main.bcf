@@ -2130,7 +2130,39 @@
     <bcf:datasource type="file" datatype="bibtex">programme.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+<<<<<<< HEAD
     <bcf:citekey order="1">sample353</bcf:citekey>
+=======
+<<<<<<< HEAD
+    <bcf:citekey order="1">sample354</bcf:citekey>
+    <bcf:citekey order="2">sample354</bcf:citekey>
+    <bcf:citekey order="3">sample354</bcf:citekey>
+    <bcf:citekey order="4">sample354</bcf:citekey>
+    <bcf:citekey order="5">sample354</bcf:citekey>
+    <bcf:citekey order="6">sample354</bcf:citekey>
+    <bcf:citekey order="7">sample354</bcf:citekey>
+    <bcf:citekey order="8">sample354</bcf:citekey>
+    <bcf:citekey order="9">sample354</bcf:citekey>
+    <bcf:citekey order="10">sample354</bcf:citekey>
+    <bcf:citekey order="11">sample354</bcf:citekey>
+    <bcf:citekey order="12">sample354</bcf:citekey>
+    <bcf:citekey order="13">sample354</bcf:citekey>
+    <bcf:citekey order="14">sample354</bcf:citekey>
+    <bcf:citekey order="15">sample354</bcf:citekey>
+    <bcf:citekey order="16">sample354</bcf:citekey>
+    <bcf:citekey order="17">sample354</bcf:citekey>
+    <bcf:citekey order="18">sample354</bcf:citekey>
+    <bcf:citekey order="19">sample354</bcf:citekey>
+    <bcf:citekey order="20">sample354</bcf:citekey>
+||||||| merged common ancestors
+=======
+<<<<<<< HEAD
+    <bcf:citekey order="1">sample</bcf:citekey>
+    <bcf:citekey order="2">sample353</bcf:citekey>
+=======
+>>>>>>> 4acaa3fc17a88aad72059c7b15e99d399323487c
+>>>>>>> 20d43b48d8450fc3ed47de3e6ad05c546974ce19
+>>>>>>> e4f507baa6ea27a7045c4d36435ae4a076ef9fbb
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
