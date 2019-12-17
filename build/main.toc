@@ -1,0 +1,23 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Ziel}{3}{section.1}% 
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Der ideale Schwingkreis}{3}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Der reale Schwingkreis}{3}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Der Schwingfall}{5}{subsubsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Der Kriechfall}{6}{subsubsection.2.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.3}Der aperiodische Grenzfall}{6}{subsubsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.3}Erzwungene Schwingungen}{7}{subsection.2.3}% 
+\contentsline {section}{\numberline {3}Durchführung}{8}{section.3}% 
+\contentsline {subsubsection}{\numberline {3.0.1}Untersuchung der Amplitude und Berechnung des Dämpfungwiderstandes}{8}{subsubsection.3.0.1}% 
+\contentsline {subsubsection}{\numberline {3.0.2}Berechung von dem Widerstand $R_{ap}$}{9}{subsubsection.3.0.2}% 
+\contentsline {subsubsection}{\numberline {3.0.3}Frequenzabhängigkeit der Kondensatorspannung}{10}{subsubsection.3.0.3}% 
+\contentsline {subsubsection}{\numberline {3.0.4}Frequenzabhängigkeit der Phasenverschiebung}{10}{subsubsection.3.0.4}% 
+\contentsline {section}{\numberline {4}Auswertung}{11}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Dämpfung des elektischen Schwingkreises}{11}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Aperiodischer Grenzfall}{13}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Frequenzabhängigkeit der Kondensatorspannung}{14}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung}{17}{subsection.4.4}% 
+\contentsline {section}{\numberline {5}Diskussion}{19}{section.5}% 
+\contentsline {section}{\numberline {6}Anhang}{19}{section.6}% 
+\contentsline {section}{\nonumberline Literatur}{19}{section*.20}% 
