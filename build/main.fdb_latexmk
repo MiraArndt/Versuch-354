@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber build/main"] 1576574855 "build/main.bcf" "build/main.bbl" "build/main" 1576574935
+["biber build/main"] 1576574855 "build/main.bcf" "build/main.bbl" "build/main" 1576575014
   "build/main.bcf" 1576574934 99524 744d1bbbdf722398dcf6c0d2cea900c6 "lualatex"
   "lit.bib" 1576240781 238 d2a4019bbd9447aa22605945b858d688 ""
   "programme.bib" 1576168823 1042 681836d224c758e678e4f1a862d141da ""
   (generated)
-  "build/main.blg"
   "build/main.bbl"
-["lualatex"] 1576574923 "main.tex" "build/main.pdf" "main" 1576574935
+  "build/main.blg"
+["lualatex"] 1576574923 "main.tex" "build/main.pdf" "main" 1576575014
   "/home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -231,9 +231,9 @@
   "tabelle1.csv" 1576562611 435 af61f4a08881f3ad8f60f834a31a757b ""
   "tabelle2.csv" 1576562555 223 af793e559c2be0502cea90191cf440b4 ""
   (generated)
-  "build/main.log"
-  "build/main.aux"
-  "build/main.toc"
   "build/main.run.xml"
   "build/main.pdf"
+  "build/main.toc"
   "build/main.bcf"
+  "build/main.aux"
+  "build/main.log"
