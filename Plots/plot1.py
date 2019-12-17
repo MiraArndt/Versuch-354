@@ -20,10 +20,13 @@ r=ufloat(871.6,0.1)
 l=ufloat(0.0035,0.00001)
 c=ufloat(0.000000005,0.00000000002)
 
-print((1/r)*((l/c)**0.5))
+print(2*l/(96.9*10**(3)))
+print((1/(l*c)-r**2/(2*l**2))**0.5)
+print('Omega1=',r/(2*l)+(r**2/(4*l**2)+1/(l*c))**0.5)
+print('Omega2=',-r/(2*l)+(r**2/(4*l**2)+1/(l*c))**0.5)
 plt.plot(x,(y), 'x',label='Messwerte')
 plt.plot(x_plot,np.exp(params[0]*x_plot)*4,label='Ausgleichskurve')
-
+plt.plot(96.9,1/np.exp(1),'k',label='wert')
 
 plt.xlabel(r'$t \:/\: \si{\micro\second}$')
 plt.ylabel(r'$U_{C,0} \:/\: \si{\volt}$')

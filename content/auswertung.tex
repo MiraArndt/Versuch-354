@@ -1,7 +1,12 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 \subsection{Dämpfung des elektischen Schwingkreises}
-(BILD)
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=13cm]{content/Auswertung.jpg}
+  \caption{Kondensatorspannung in Abhängigkeit der Zeit beim gedämpften Schwingkreis}
+  \label{fig:a1}
+\end{figure}
 
 \begin{table}[H]
   \centering
@@ -17,7 +22,7 @@
   \label{tab:a}
 \end{table}
 
-\noindent Aus Abbildung (REFERENZ) wurden 12 Wertepaare
+\noindent Aus Abbildung \ref{fig:a1} wurden 12 Wertepaare
 abgelesen und in Tabelle \ref{tab:a} aufgelistet. Um
 die Abklingduaer $T_{ex}$ zu bestimmen wurde nun zunächst
 eine lineare Ausgleichsrechnung durchgeführt. Dabei
@@ -29,17 +34,17 @@ Die Steigung
   m=-0,01032\cdot 10^{-3}
 \end{equation*}
 
-\noindent dieser Geraden entspricht dem Faktor im Exponenten in Gleichung (REFERENZ AUF GLEICHUNG),
+\noindent dieser Geraden entspricht dem Faktor im Exponenten in Gleichung \ref{eq:a1},
 da $U_C(t)$ proportional zu $I(t)$ ist. Die Abklingdauer
-kann nach Gleichung (REFERENZ AUF GLEICHUNG) durch das 
+kann nach Gleichung \ref{eq:a2} durch das 
 Inverse des Betrags der Steigung als 
 
 \begin{equation*}
-  T_{ex}=96,9\cdot10^{-3}
+  T_{ex}=96,9\cdot10^{3}\,\si{\second}
 \end{equation*}
 
 \noindent berechnet werden. Mit der Abklingdauer kann nun eine nichtlineare Ausgleichskurve
-erstellt werden, die der Einhüllenden in Abbildung (REFERENZ)
+erstellt werden, die der Einhüllenden in Abbildung \ref{fig:a1}
 entspricht. Die Ausgleichsgerade ist mit den abgelesenen
 Messwerten in Abbilung \ref{fig:a} zu sehen.
 
@@ -58,13 +63,15 @@ Messwerten in Abbilung \ref{fig:a} zu sehen.
 \end{figure}
 
 \noindent Der Dämpfungswiderstand $R_{eff}$ ergibt sich duch
-Zusammenhang (REFERENZ) als
+Zusammenhang \ref{eq:a2} als
 
-WERT.
+\begin{equation*}
+  R_{eff}=(0,07224\pm0,0021)\,\si{\ohm}
+\end{equation*}
 
 \noindent Die Abweichung zum eigentlichen Widerstandwert $R=(30,3 \pm 0,1)\,\si{\ohm}$
 lässt sich durch den Innenwiderstand des Generators erklären,
-welcher $R_G=600\,\si{\ohm}$ beträgt.
+welcher $R_G=600\,\si{\ohm}$ beträgt.(INVERSES KLÄREN)
 
 
 
@@ -78,14 +85,14 @@ ergab sich für $R_{ap}$ ein Wert von
   R_{ap}=1,4\,\si{\kilo\ohm}
 \end{equation*}
 
-Mit Gleichung (REFERENZ) lässt sich $R_{ap}$ 
+\noindent Mit Gleichung (REFERENZ) lässt sich $R_{ap}$ 
 als
 
 \begin{equation*}
   R_{ap}=1,67\,\si{\kilo\ohm}
 \end{equation*}
 
-berechnen. Beim Verglich mit dem Messwert fällt wieder 
+\noindent berechnen. Beim Verglich mit dem Messwert fällt wieder 
 auf, dass sich die Abweichung durch den nicht beachteten
 Innenwiderstand $R_G=600\,\si{\ohm}$ des Generators erklären lässt.
 
@@ -117,7 +124,7 @@ Innenwiderstand $R_G=600\,\si{\ohm}$ des Generators erklären lässt.
 
 
 \noindent Die Messwerte aus Tabelle \ref{tab:b} werden
-in Abbildung \ref{fic:c} dargestellt. Dabei ist $U_0$ 
+in Abbildung \ref{fig:c} dargestellt. Dabei ist $U_0$ 
 der gemessene Wert $U_0=2,3\,\si{\volt} $ der Generatorspannung. Die Resonanzüberhöhung
 lässt sich als
 
@@ -126,19 +133,20 @@ lässt sich als
 \end{equation*}
 
 \noindent ablesen. Dieser lässt sich mit dem nach Gleichung
-(REFERENZ) als 
+\ref{eq:b1} als 
 
 \begin{equation*}
   q=0,9599\pm0,0024
 \end{equation*}
 \noindent errechneten Wert vergleichen. Für diesen wurde
-nun $R=(271,6\pm0,1)\,\si{\ohm} + 600\,\si{\ohm}$ angenommen. (VERGLEICH)In Abbildung (REFERENZ) ist der Bereich
+nun $R=(271,6\pm0,1)\,\si{\ohm} + 600\,\si{\ohm}$ angenommen. (VERGLEICH)
+In Abbildung \ref{fig:g} ist der Bereich
 um die Resonanzfrequenz linear dargestellt.
 \begin{figure}[H]
   \centering
   \includegraphics{build/plot3.pdf}
   \caption{Frequenzabhängigkeit der Kondensatorspannung bei einer erzwungenen Schwingung in Nähe der Resonanz}
-  \label{fig:plot}
+  \label{fig:g}
 \end{figure}
 
 
@@ -156,49 +164,62 @@ um die Resonanzfrequenz linear dargestellt.
   {tabelle1.csv}{1=\eins, 2=\zwei, 3=\drei, 4=\vier}{$\num{\eins}$ & $\num{\zwei}$ & $\num{\drei}$ & $\num{\vier}$}
   
   \caption{Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung}
-  \label{tab:a}
+  \label{tab:g}
 \end{table}
 
 \begin{figure}[H]
   \centering
   \includegraphics{build/plot4.pdf}
   \caption{Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung}
-  \label{fig:plot}
+  \label{fig:j}
 \end{figure}
-\noindent Die Messwerte aus Tabelle (REFERENZ) werden in Abbildung
-(REFERENZ) dargestellt. In Abbildung (REFERENZ) ist
+\noindent Die Messwerte aus Tabelle \ref{tab:g} werden in Abbildung
+\ref{fig:j} dargestellt. In Abbildung \ref{fig:i} ist
 der Bereich um die Resonanzfrequenz linear dargestellt.
 Diese lässt sich an der Stelle $\pi/2$ als
 
-(WERT)
+\begin{equation*}
+  \omega_{res}=239\,\si{\kilo\hertz}
+\end{equation*}
 
 
-\noindent ablesen. Im Vergleich zum gerechneten Wert
+\noindent ablesen. Im Vergleich zum, durch Gleichung \ref{eq:res},
+gerechneten Wert
 
-(WERT)
+\begin{equation*}
+  \omega_{res}=(161,7\pm0,7)\,\si{\kilo\hertz}
+\end{equation*}
 
-\noindent fällt auf, dass(VERGLEICH).
+\noindent fällt auf, dass(VERGLEICH). Auch hier wurde $R=(271,6\pm0,1)\,\si{\ohm} + 600\,\si{\ohm}$ angenommen.
 \begin{figure}[H]
   \centering
   \includegraphics{build/plot5.pdf}
   \caption{Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung in Nähe der Resonanz}
-  \label{fig:plot}
+  \label{fig:i}
 \end{figure}
 \noindent $\omega_1$ liegt bei $\pi/4$ und entspricht
 somit dem Messwert
 
-(WERT).
+\begin{equation*}
+  \omega_1=195\,\si{\kilo\hertz}.
+\end{equation*}
 
 
 \noindent $\omega_1$ liegt bei $\pi \cdot 3/4$ und entspricht
 somit dem Messwert
 
-(WERT).
-
-Diese Werte können mit den beiden aus Gleichung (REFERENZ)
+\begin{equation*}
+\omega_2=283\,\si{\kilo\hertz}.
+\end{equation*}
+\noindent Diese Werte können mit den beiden aus Gleichung (REFERENZ)
 errechneten Werten 
 
-(WERTE)
+\begin{equation*}
+  \omega_1=(145\pm0,4)\,\si{\kilo\hertz}
+\end{equation*}
+\begin{equation*}
+  \omega_2=(394\pm0,9)\,\si{\kilo\hertz}
+\end{equation*}
 
 \noindent verglichen werden. (VERGLEICH)
 
