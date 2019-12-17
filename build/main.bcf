@@ -2130,8 +2130,11 @@
     <bcf:datasource type="file" datatype="bibtex">programme.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+<<<<<<< HEAD
     <bcf:citekey order="1">sample</bcf:citekey>
     <bcf:citekey order="2">sample353</bcf:citekey>
+=======
+>>>>>>> 4acaa3fc17a88aad72059c7b15e99d399323487c
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

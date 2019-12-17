@@ -8,8 +8,13 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Der Kriechfall}{6}{subsubsection.2.2.2}% 
 \contentsline {subsubsection}{\numberline {2.2.3}Der aperiodische Grenzfall}{6}{subsubsection.2.2.3}% 
 \contentsline {subsection}{\numberline {2.3}Erzwungene Schwingungen}{7}{subsection.2.3}% 
+<<<<<<< HEAD
 \contentsline {section}{\numberline {3}Durchführung}{8}{section.3}% 
 \contentsline {subsubsection}{\numberline {3.0.1}Untersuchung der Amplitude und Berechnung des Dämpfungwiderstandes}{8}{subsubsection.3.0.1}% 
+=======
+\contentsline {section}{\numberline {3}Durchführung}{9}{section.3}% 
+\contentsline {subsubsection}{\numberline {3.0.1}Untersuchung der Amplitude und Berechnung des Dämpfungwiderstandes}{9}{subsubsection.3.0.1}% 
+>>>>>>> 4acaa3fc17a88aad72059c7b15e99d399323487c
 \contentsline {subsubsection}{\numberline {3.0.2}Berechung von dem Widerstand $R_{ap}$}{9}{subsubsection.3.0.2}% 
 \contentsline {subsubsection}{\numberline {3.0.3}Frequenzabhängigkeit der Kondensatorspannung}{10}{subsubsection.3.0.3}% 
 \contentsline {subsubsection}{\numberline {3.0.4}Frequenzabhängigkeit der Phasenverschiebung}{10}{subsubsection.3.0.4}% 
