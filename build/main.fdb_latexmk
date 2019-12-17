@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber build/main"] 1576572825 "build/main.bcf" "build/main.bbl" "build/main" 1576575409
-  "build/main.bcf" 1576575408 99572 fa868cfdfd0622f98e6c2bfaf770d9e0 "lualatex"
+["biber build/main"] 1576577404 "build/main.bcf" "build/main.bbl" "build/main" 1576577418
+  "build/main.bcf" 1576577418 99623 d24215b320ab05231130482882c95a6d "lualatex"
   "lit.bib" 1575992010 238 d2a4019bbd9447aa22605945b858d688 ""
   "programme.bib" 1568632986 1042 681836d224c758e678e4f1a862d141da ""
   (generated)
-  "build/main.blg"
   "build/main.bbl"
-["lualatex"] 1576575396 "main.tex" "build/main.pdf" "main" 1576575409
+  "build/main.blg"
+["lualatex"] 1576577406 "main.tex" "build/main.pdf" "main" 1576577418
   "/home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -200,10 +200,10 @@
   "/home/mira/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/xitsmath-regular.luc" 1569591319 411895 cd43075e93685c96dafc880483000590 ""
   "/home/mira/.local/texlive/2019/texmf-var/tex/generic/config/language.dat" 1568063572 6580 5cc091d1f7e27f5d5bf5241b5dd0f9c0 ""
   "/home/mira/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt" 1568063613 1382705 73e138a129175cefaeec30f5f8c47a3c ""
-  "build/main.aux" 1576575408 20976 4e2f1042b617996fdcf7ce8b05b1cb16 "lualatex"
-  "build/main.bbl" 1576572827 7736 d35fa2e75ca14841d3ecc9782b48ac25 "biber build/main"
-  "build/main.run.xml" 1576575408 2396 31f789ad5f3867a087365585bb9e8600 "lualatex"
-  "build/main.toc" 1576575408 2116 1b211782ea6525568ae09889d5fa7d27 "lualatex"
+  "build/main.aux" 1576577418 21122 5aa78e17b0b0470a37f1c948b75443a0 "lualatex"
+  "build/main.bbl" 1576577405 7716 58e0a5cf386ae66a758dc7caf8804568 "biber build/main"
+  "build/main.run.xml" 1576577418 2396 31f789ad5f3867a087365585bb9e8600 "lualatex"
+  "build/main.toc" 1576577418 2116 1b211782ea6525568ae09889d5fa7d27 "lualatex"
   "build/plot1-1.pdf" 1576572812 10217 3cec266e468527d793826a92009a1d1f ""
   "build/plot1.pdf" 1576575395 10131 3f257857480dbcc5fa9afd8e223d7c9f ""
   "build/plot2.pdf" 1576572758 9437 ea7e4f33dcb7cb313fe35a9731517149 ""
@@ -221,8 +221,8 @@
   "content/aufgabeB.png" 1576572566 11001 21785bc83b4f06b7bb9b974eb4e25e4d ""
   "content/aufgabeC.png" 1576572566 52565 7ed7d27ea30fabc3bab46c451f3592a4 ""
   "content/aufgabeD.png" 1576572566 73714 37cc7a7668b7d926dc32e25f645c8b40 ""
-  "content/auswertung.tex" 1576575097 6650 7c8b73883b7718e442a254b5650eb363 ""
-  "content/diskussion.tex" 1576571833 1054 d6fc255a84d41128fcfd0350026983e0 ""
+  "content/auswertung.tex" 1576577388 6909 f1ea4780d0f53f0fa8c9c131a782eac0 ""
+  "content/diskussion.tex" 1576576773 2258 e31e69a0919cc5c5c281a742744533d6 ""
   "content/durchfuehrung.tex" 1576573910 4311 0121f8a85569126adadb929b0be3ef48 ""
   "content/faellevonschwingungen.png" 1576521692 55026 661ee3999378c53537bc9357b5a4c2d9 ""
   "content/theorie.tex" 1576570567 9263 240bcbe8168bff40083836802968e64f ""
@@ -233,9 +233,9 @@
   "tabelle1.csv" 1576572772 435 af61f4a08881f3ad8f60f834a31a757b ""
   "tabelle2.csv" 1576572745 223 af793e559c2be0502cea90191cf440b4 ""
   (generated)
-  "build/main.aux"
-  "build/main.run.xml"
+  "build/main.log"
+  "build/main.pdf"
   "build/main.bcf"
   "build/main.toc"
-  "build/main.pdf"
-  "build/main.log"
+  "build/main.aux"
+  "build/main.run.xml"
