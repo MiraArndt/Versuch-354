@@ -8,24 +8,12 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Der Kriechfall}{6}{subsubsection.2.2.2}% 
 \contentsline {subsubsection}{\numberline {2.2.3}Der aperiodische Grenzfall}{6}{subsubsection.2.2.3}% 
 \contentsline {subsection}{\numberline {2.3}Erzwungene Schwingungen}{7}{subsection.2.3}% 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 \contentsline {subsection}{\numberline {2.4}Ermittlung der Phasenverschiebung zwischen zwei Spannungen}{9}{subsection.2.4}% 
-||||||| merged common ancestors
-=======
-<<<<<<< HEAD
-\contentsline {section}{\numberline {3}Durchführung}{8}{section.3}% 
-\contentsline {subsubsection}{\numberline {3.0.1}Untersuchung der Amplitude und Berechnung des Dämpfungwiderstandes}{8}{subsubsection.3.0.1}% 
-=======
->>>>>>> 20d43b48d8450fc3ed47de3e6ad05c546974ce19
->>>>>>> e4f507baa6ea27a7045c4d36435ae4a076ef9fbb
 \contentsline {section}{\numberline {3}Durchführung}{9}{section.3}% 
-<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.1}Untersuchung der Amplitude und Berechnung des Dämpfungwiderstandes}{9}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Berechung von dem Widerstand $R_{ap}$}{10}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}Frequenzabhängigkeit der Kondensatorspannung}{11}{subsection.3.3}% 
-\contentsline {subsection}{\numberline {3.4}Frequenzabhängigkeit der Phasenverschiebung}{11}{subsection.3.4}% 
+\contentsline {subsubsection}{\numberline {3.1.1}Bestimmung des Widerstands $R_{ap}$}{10}{subsubsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.2}Frequenzabhängigkeit der Kondensatorspannung}{11}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Frequenzabhängigkeit der Phasenverschiebung}{11}{subsection.3.3}% 
 \contentsline {section}{\numberline {4}Auswertung}{12}{section.4}% 
 \contentsline {subsection}{\numberline {4.1}Dämpfung des elektischen Schwingkreises}{12}{subsection.4.1}% 
 \contentsline {subsection}{\numberline {4.2}Aperiodischer Grenzfall}{15}{subsection.4.2}% 
@@ -34,30 +22,3 @@
 \contentsline {section}{\numberline {5}Diskussion}{21}{section.5}% 
 \contentsline {section}{\numberline {6}Anhang}{22}{section.6}% 
 \contentsline {section}{\nonumberline Literatur}{24}{section*.23}% 
-||||||| merged common ancestors
-\contentsline {subsubsection}{\numberline {3.0.1}Untersuchung der Amplitude und Berechnung des Dämpfungwiderstandes}{9}{subsubsection.3.0.1}% 
-\contentsline {subsubsection}{\numberline {3.0.2}Berechung von dem Widerstand $R_{ap}$}{9}{subsubsection.3.0.2}% 
-\contentsline {subsubsection}{\numberline {3.0.3}Frequenzabhängigkeit der Kondensatorspannung}{10}{subsubsection.3.0.3}% 
-\contentsline {subsubsection}{\numberline {3.0.4}Frequenzabhängigkeit der Phasenverschiebung}{10}{subsubsection.3.0.4}% 
-\contentsline {section}{\numberline {4}Auswertung}{11}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Dämpfung des elektischen Schwingkreises}{11}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Aperiodischer Grenzfall}{14}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Frequenzabhängigkeit der Kondensatorspannung}{15}{subsection.4.3}% 
-\contentsline {subsection}{\numberline {4.4}Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung}{18}{subsection.4.4}% 
-\contentsline {section}{\numberline {5}Diskussion}{20}{section.5}% 
-\contentsline {section}{\numberline {6}Anhang}{21}{section.6}% 
-\contentsline {section}{\nonumberline Literatur}{23}{section*.22}% 
-=======
-\contentsline {subsubsection}{\numberline {3.0.1}Untersuchung der Amplitude und Berechnung des Dämpfungwiderstandes}{9}{subsubsection.3.0.1}% 
-\contentsline {subsubsection}{\numberline {3.0.2}Berechung von dem Widerstand $R_{ap}$}{9}{subsubsection.3.0.2}% 
-\contentsline {subsubsection}{\numberline {3.0.3}Frequenzabhängigkeit der Kondensatorspannung}{10}{subsubsection.3.0.3}% 
-\contentsline {subsubsection}{\numberline {3.0.4}Frequenzabhängigkeit der Phasenverschiebung}{10}{subsubsection.3.0.4}% 
-\contentsline {section}{\numberline {4}Auswertung}{11}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Dämpfung des elektischen Schwingkreises}{11}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Aperiodischer Grenzfall}{14}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Frequenzabhängigkeit der Kondensatorspannung}{15}{subsection.4.3}% 
-\contentsline {subsection}{\numberline {4.4}Frequenzabhängigkeit der Phasenverschiebung zwischen Kondensator- und Generatorspannung}{18}{subsection.4.4}% 
-\contentsline {section}{\numberline {5}Diskussion}{20}{section.5}% 
-\contentsline {section}{\numberline {6}Anhang}{21}{section.6}% 
-\contentsline {section}{\nonumberline Literatur}{23}{section*.22}% 
->>>>>>> 20d43b48d8450fc3ed47de3e6ad05c546974ce19
