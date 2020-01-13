@@ -63,7 +63,7 @@ Differentialgleichung zweiter Ordnung
 \noindent
 welche sich mit Hilfe des Ansatzes
 \begin{equation}
-    I(t) = U e^{iwt}
+    I(t) = I_0 e^{iwt}
 \end{equation}
 \noindent 
 lösen lässt. Durch Einsetzen des Ansatzes ergibt sich schließlich die charakteristische Gleichung
@@ -78,11 +78,11 @@ Mit den beiden Kreisfrequenzen $w_1$ und $w_2$
 \noindent
 kann die allgemeine Lösung der Differentialgleichung 
 \begin{equation}
-    I(t) = U_1 e^{i w_1 t} + U_2 e^{i w_2 t},
+    I(t) = I_1 e^{i w_1 t} + I_2 e^{i w_2 t},
     \label{eq:lsg}
 \end{equation}
 \noindent
-wobei $U_1$ und $U_2$ komplexe Koeffizienten darstellen, bestimmt werden. Wird nun die 
+wobei $I_1$ und $I_2$ komplexe Koeffizienten darstellen, bestimmt werden. Wird nun die 
 Darstellung
 \begin{align}
     \mu = \frac{R}{4\pi L} \nonumber \\
@@ -91,7 +91,7 @@ Darstellung
 \noindent
 verwendet, lässt sich \ref{eq:lsg} zu
 \begin{equation}
-    I(t) = e^{-2\pi \mu t} \left( U_1 e^{i 2 \pi \nu t} + U_2 e^{-i 2 \pi \nu t} \right)
+    I(t) = e^{-2\pi \mu t} \left( I_1 e^{i 2 \pi \nu t} + I_2 e^{-i 2 \pi \nu t} \right)
     \label{eq:Stromstaerke}
 \end{equation}
 \noindent
@@ -106,22 +106,22 @@ werden sollen.
 
 
 \subsubsection{Der Schwingfall}
-Der erste Fall tritt dann ein, wenn $1/LC > R^{2}/4L^{2}$ gilt, was bedeutet,
+Der erste Fall tritt dann ein, wenn $1/LC < R^{2}/4L^{2}$ gilt, was bedeutet,
 dass $\nu_{1,2}$ zu imaginären Größen werden. Damit eine reelle Lösung zustande kommt, muss
-zwischen $U_1$ und $U_2$ notwendigerweise die Beziehung $U_1 = \bar{U_2}$ gelten. Folglich lassen 
+zwischen $I_1$ und $I_2$ notwendigerweise die Beziehung $I_1 = \bar{I_2}$ gelten. Folglich lassen 
 sie sich mithilfe der Euler-Formel in die Form
 \begin{align*}
-    U_1 = \frac{1}{2} A_0 e^{i \eta} \\
-    U_2 = \frac{1}{2} A_0 e^{-i \eta}
+    I_1 = \frac{1}{2} A_0 e^{i \eta} \\
+    I_2 = \frac{1}{2} A_0 e^{-i \eta}
 \end{align*}
 \noindent bringen. Somit kann die Gleichung \ref{eq:Stromstaerke} in
 \begin{equation}
-    I(t) = A_0 e^{-2\pi \mu t} \cos{2\pi \nu t + \eta}
+    I(t) = A_0 e^{-2\pi \mu t} \cos(2\pi \nu t + \eta)
     \label{eq:a1}
 \end{equation}
 \noindent umgeformt werden. In diesem Fall liegt also eine gedämpfte harmonische Schwingung vor, 
-dessen Amplitude mit fortlaufender Zeit exponentiell abnimmt. Die Schwingungsdauer kann
-mit Hilfe des Zusammenhangs $T = 1\nu$ ermittelt werden. Für die allgemeine 
+deren Amplitude mit fortlaufender Zeit exponentiell abnimmt. Die Schwingungsdauer kann
+mit Hilfe des Zusammenhangs $T = \frac{1}{\nu}$ ermittelt werden. Für die allgemeine 
 gedämpfte Schwingung ergibt sich 
 \begin{equation}
     T = \frac{2\pi}{\sqrt{\frac{1}{LC}-\frac{R^{2}}{4L^{2}}}}, 
@@ -145,7 +145,7 @@ verkleinert hat.
 \subsubsection{Der Kriechfall}
 
 Der zweite Fall tritt ein, falls $1/LC < R^{2}/4L^{2}$ gilt, was dazu führt, 
-dass \nu selbst eine imaginäre Zahl darstellt. Damit enthält Gleichung \ref{eq:Stromstaerke}
+dass $\nu$ selbst eine imaginäre Zahl darstellt. Damit enthält Gleichung \ref{eq:Stromstaerke}
 lediglich reelle Exponentialfunktionen, was bedeutet, dass keine Schwingung ausgeführt wird, 
 sondern die Amplitude - abhängig von den Werten $A_1$ und $A_2$ - entweder direkt und 
 monoton gegen null geht oder zuerst ein Maximum erreicht (die sogenannte Überschwingung) 
@@ -163,7 +163,7 @@ Der dritte und letzte Fall tritt ein, wenn
 führt, dass $\nu$ selbst null ergibt. Aus der Bedingung und Gleichung \ref{eq:Stromstaerke} ergibt
 sich für den zeitlichen Verlauf der Stromstärke 
 \begin{equation*}
-    I(t) = A e^{-\frac{R}{2L}t}
+    I(t) = A e^{-\frac{R}{2L}t},
 \end{equation*}
 \noindent wobei angemerkt werden soll, dass hierbei keine Überschwingung auftreten kann und 
 das die Stromstärke hierbei noch schneller als beim Kriechfall gegen null strebt (siehe Abbildung \ref{fig:fvs}). 
@@ -200,7 +200,7 @@ betrachtet werden. Der schematische Aufbau für die Schaltung lässt sich der Ab
 entnehmen. Für den von außen mit der Wechselspannung $U(t) = U_0 e^{i\omega t}$ angetriebenen 
 RCL-Kreis, geht Gleichung \ref{eq:dgl} in 
 \begin{equation}
-    L \frac{\mathrm{d}I}{\mathrm{d}t} + RI + \frac{Q}{C} = U_0 e^{}
+    L \frac{\mathrm{d}I}{\mathrm{d}t} + RI + \frac{Q}{C} = U_0 e^{i\omega t}
 \end{equation}
 \noindent über. Weiterhin lässt sich diese auf die Form
 \begin{equation}
@@ -210,16 +210,16 @@ RCL-Kreis, geht Gleichung \ref{eq:dgl} in
 eine komplexe Zahl) ergibt sich 
 für die frequenzabhängigen Amplitude 
 \begin{equation}
-    \tilde{U}_C(\omega) = \frac{U_0(1-LC\omega^{2}-i\omega RC)}{(1-LC \omega^{2})^{2} + \omega^{2}R^{2}C{2} }
+    \tilde{U}_C(\omega) = \frac{U_0(1-LC\omega^{2}-i\omega RC)}{(1-LC \omega^{2})^{2} + \omega^{2}R^{2}C^{2} }
 \end{equation}
 beziehungsweise für dessen Betrag
 \begin{equation}
-    |\tilde{U}_C(\omega)| = U_C(\omega)= \frac{U_0}{\sqrt{(1-LC\omega)^{2})^{2}+\omega^{2}R^{2}C^{2}}}.
+    |\tilde{U}_C(\omega)| = U_C(\omega)= \frac{U_0}{\sqrt{(1-LC\omega^{2})^{2}+\omega^{2}R^{2}C^{2}}}.
 \end{equation}
 Diese wird auch als Resonanzkurve bezeichnet. Zusätzlich ergibt sich als Zusammenhang
 zwischen Phasenverschiebung und Frequenz $\omega$
 \begin{equation}
-    \phi(\omega) = \arctan{\frac{-\omega RC}{1-LC \omega^{2}}}.
+    \phi(\omega) = \arctan{ \left( \frac{-\omega RC}{1-LC \omega^{2}} \right) }.
     \label{eq:ll}
 \end{equation}
 \noindent
